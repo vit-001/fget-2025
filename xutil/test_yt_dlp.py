@@ -30,4 +30,4 @@ def get_all_video_urls(url):
 
 
 if __name__ == "__main__":
-    get_all_video_urls("https://www.youjizz.com/videos/thick-babe-jordyn-falls-shakes-her-big-ass-before-sliding-on-johnny%27s-cock-109287901.html")
+    get_all_video_urls("https://vps404.strip2.co/video/8811355/?Li=2134311049&Lii=8811355&Lt=29&Sn=9&tid=96076390")

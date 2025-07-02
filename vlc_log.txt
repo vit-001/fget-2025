@@ -254886,3 +254886,12 @@ main warning: picture is too late to be displayed (missing 40 ms)
 http error: local stream 15 error: Cancellation (0x8)
 main warning: picture is too late to be displayed (missing 42 ms)
 main warning: picture is too late to be displayed (missing 39 ms)
+﻿-- logger module started --
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+mp4 warning: CTTS table of 1841 entries
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+faad warning: decoded zero sample
+avcodec: Using D3D11VA (Intel(R) UHD Graphics 630, vendor 8086(Intel), device 9bc5, revision 5) for hardware decoding
+drawable warning: unsupported control query 3

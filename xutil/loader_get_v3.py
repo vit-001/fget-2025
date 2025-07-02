@@ -90,7 +90,7 @@ if __name__ == "__main__":
     #
     # https://yourlust.com/latest-updates/
 
-    url1a = 'https://www.youjizz.com/videos/her-nails-left-marks-on-his-back916v-109283771.html'
+    url1a = 'https://vps404.strip2.co/video/8811355/?Li=2134311049&Lii=8811355&Lt=29&Sn=3&tid=4bf0ff7b'
     url1b = 'https://www.porndr.com/latest-updates/'
     url2 = 'https://wvvw.huyamba.mobi/get_file/1/be0bc9649a691b655e8615afe2a92ebd/8000/8687/8687hd.mp4/'
     url3 = 'https://i.prostoporno.monster/contents/videos_screenshots/362000/362190/352x198/1.jpg'

@@ -173,7 +173,7 @@ class Model(ModelFromControllerInterface, ModelFromSiteInterface):
 
 
                             Space('Static:'),
-            TryboobsSite,SpicyflixSite,StileprojectSite, FapguruSite,PornwatchersSite,
+                            TryboobsSite,SpicyflixSite,StileprojectSite, FapguruSite,PornwatchersSite,
 
 
 

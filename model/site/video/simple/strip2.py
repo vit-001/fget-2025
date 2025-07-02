@@ -2,6 +2,8 @@
 __author__ = 'Vit'
 from bs4 import BeautifulSoup
 
+import json
+
 from data_format.url import URL
 from data_format.fl_data import FLData
 from common.util import _iter, quotes, psp, sp, collect_string, pretty
@@ -43,7 +45,7 @@ class Strip2Site(BaseSiteParser):
                     xref = thumbnail.find('a', href=True)
                     href = URL(xref.attrs['href'], base_url=url)
                     img = thumbnail.find('img')
-                    thumb_url = URL(img.attrs.get('src'), base_url=url)
+                    thumb_url = URL(img.attrs.get('src'), base_url=url,redirect=True)
                     label = img.attrs.get('alt')
 
                     # title = thumbnail.find('div', {'class': 'item_title'})
@@ -82,14 +84,24 @@ class Strip2Site(BaseSiteParser):
 
 
     def parse_video(self, soup: BeautifulSoup, url: URL):
-        video = soup.find('video')#, {'id': 'player'})
+        # pretty(soup)
+        video = soup.find('div', {'class': 'video-player_container'})
         if video:
-            # pretty(soup)
-            curr=0
-            for source in _iter(video.find_all('source')):
-                # psp(source)
-                self.add_video(source.attrs.get('title','default '+str(curr)), URL(source.attrs['src']))
-                curr+=1
+            pretty(video)
+            sources=video.attrs.get('data-sources')
+            print(sources)
+            data_list = json.loads(sources)
+            print(data_list)
+            if data_list:
+                for data in data_list:
+                    res=data['res']
+                    link=data['link']
+
+                    print(res,link)
+            # for source in _iter(video.find_all('source')):
+            #     # psp(source)
+                    self.add_video(res, URL(link,referer=url))
+            #     curr+=1
             self.set_default_video(-1)
 
     def parse_video_tags(self, soup: BeautifulSoup, url: URL):
