@@ -30,4 +30,14 @@ def get_all_video_urls(url):
 
 
 if __name__ == "__main__":
-    get_all_video_urls("https://vps404.strip2.co/video/8811355/?Li=2134311049&Lii=8811355&Lt=29&Sn=9&tid=96076390")
+    import pyperclip
+
+    # Получить текст из буфера обмена
+    clipboard_text = pyperclip.paste()
+    print("Текст из буфера обмена:", clipboard_text)
+
+    if clipboard_text.startswith('https://'):
+        get_all_video_urls(clipboard_text)
+    else:
+
+        get_all_video_urls("")

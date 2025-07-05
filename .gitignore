@@ -139,3 +139,4 @@ ENV/
 .idea/misc.xml
 xutil/out/1a.html
 *.html
+vlc_log.txt

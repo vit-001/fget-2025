@@ -15,12 +15,12 @@ def get_menu_handler(function,*args,**options):
 def quotes(text:str, from_lex:str, to_lex:str)->str:
     return text.partition(from_lex)[2].partition(to_lex)[0]
 
-def collect_string(soup:BeautifulSoup)->str:
+def collect_string(soup:BeautifulSoup, divider='')->str:
     result=''
     for s in soup.stripped_strings:
-        result += s
+        result += s + divider
 
-    return result
+    return result.strip(divider)
 
 def collect_string_to_array(soup:BeautifulSoup)->list[str]:
     result=list()

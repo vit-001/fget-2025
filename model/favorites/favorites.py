@@ -13,19 +13,23 @@ class Favorites(FavoritesInterface):
         self.filename=favorites_filename
         self.data=[]
         self.read_datafile(self.filename)
+        self.changed=False
 
     def add(self, label:str, url: URL):
         for i,(fav_label,fav_url) in enumerate(self.data):
             if fav_url==url:
                 self.data[i]=tuple([label,url])
+                self.changed = True
                 return
         print('Add', url.get(), 'to favorites as', label)
         self.data.append(tuple([label,url]))
+        self.changed = True
 
     def remove(self, url: URL):
         for i,(fav_label,fav_url) in enumerate(self.data):
             if fav_url==url:
                 self.data.pop(i)
+                self.changed = True
                 return
 
     def get_favorite_items(self, site: SiteInterface) -> list:
@@ -49,6 +53,7 @@ class Favorites(FavoritesInterface):
 
     def write_datafile(self, filename:str):
         print('Writing',len(self.data),'favorites records to',filename)
+        # print('Favorites changed:', self.changed)
 
         def url_domain(url:URL) -> str:
             full_domain=url.domain()
@@ -82,7 +87,8 @@ class Favorites(FavoritesInterface):
             print('Writing ' + filename + ' error: ', err)
 
     def on_exit(self):
-        self.write_datafile(self.filename)
+        if self.changed:
+            self.write_datafile(self.filename)
 
 if __name__ == "__main__":
     f=Favorites(Setting.global_data_path+'favorites.json')

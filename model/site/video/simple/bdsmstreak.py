@@ -118,12 +118,5 @@ class BdsmstreakSite(BaseSiteParser):
                 self.add_tag(title, URL(href, base_url=url))
 
 
-    def parse_video_title(self, soup: BeautifulSoup, url: URL) -> str:
-        head= soup.find('head')
-        title=collect_string(head.find('title'))
-        # psp(title)
-        return title[:50]
-
-
 if __name__ == "__main__":
     pass

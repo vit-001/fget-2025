@@ -5,11 +5,10 @@ import yt_dlp
 
 import logging
 
-from common.util import _iter
 from data_format.url import URL
 from model.site.base_site import BaseSite
 from interface.model_interface import ModelFromSiteInterface
-
+from common.util import _iter, quotes, psp, sp, collect_string, pretty
 
 class BaseSiteParser(BaseSite):
 
@@ -109,7 +108,10 @@ class BaseSiteParser(BaseSite):
     def parse_video_title(self, soup:BeautifulSoup, url:URL)->str:
         if self.title:
             return self.title
-        return self.get_full_label(url)
+        head= soup.find('head')
+        title=collect_string(head.find('title'))
+        # psp(title)
+        return title[:50]
 
     def parse_pictures_title(self, soup:BeautifulSoup, url:URL)->str:
         return self.get_full_label(url)
