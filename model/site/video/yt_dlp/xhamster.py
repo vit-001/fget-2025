@@ -92,10 +92,8 @@ class XhamsterSite(BaseSiteParser):
             # pretty(container)
             for item in _iter(container.find_all('a', href=lambda x:'/pornstars/' in str(x))):
                 # pretty(item)
-                href = item.attrs.get('href', '')
+                href = item.attrs.get('href', '')+'/newest'
                 title = item.attrs.get('title', collect_string_to_array(item)[0])
-                # if '/cat/pornstar/' in href:
-                #     continue
                 self.add_tag(title, URL(href, base_url=url), style=dict(color='red'))
 
             for item in _iter(container.find_all('a', href=lambda x:'/channels/' in str(x))):

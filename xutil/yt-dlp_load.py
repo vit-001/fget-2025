@@ -7,6 +7,7 @@ import requests.exceptions
 import yt_dlp
 from pprint import pprint
 
+
 def get_all_video_urls(url):
     ydl_opts = {
         'quiet': True,
@@ -35,6 +36,7 @@ def get_all_video_urls(url):
     except Exception as e:
         pass
 
+
 def load(url, fname, cookies=None, headers=None, proxies=None, timeout=5, allow_redirects=True, encoding=None):
     USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
 
@@ -45,7 +47,8 @@ def load(url, fname, cookies=None, headers=None, proxies=None, timeout=5, allow_
         headers['user-agent'] = USER_AGENT
 
         # print('START')
-        response = requests.get(url, cookies=cookies, headers=headers, proxies=proxies, allow_redirects=allow_redirects, timeout=timeout)
+        response = requests.get(url, cookies=cookies, headers=headers, proxies=proxies, allow_redirects=allow_redirects,
+                                timeout=timeout)
         # print('END')
         response.raise_for_status()
         if encoding:
@@ -77,7 +80,6 @@ def load(url, fname, cookies=None, headers=None, proxies=None, timeout=5, allow_
         return response
 
 
-
 if __name__ == "__main__":
     import pyperclip
 
@@ -86,9 +88,9 @@ if __name__ == "__main__":
     print("Текст из буфера обмена:", clipboard_text)
 
     if clipboard_text.startswith('https://'):
-        url=clipboard_text
+        url = clipboard_text
     else:
-        url=""
+        url = ""
 
     fname = 'out/1.html'
 
