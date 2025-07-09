@@ -258983,3 +258983,150 @@ direct3d11 warning: failed to get the Configuration MatchingDeviceId (2)
 direct3d11 warning: failed to read the Properties Display Adapter registry key (5)
 direct3d11 warning: can't find adapter in registry
 drawable warning: unsupported control query 3
+﻿-- logger module started --
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+mp4 warning: CTTS table of 6618 entries
+mp4 warning: elst box found
+mp4 warning: STTS table of 3021 entries
+faad warning: decoded zero sample
+avcodec: Using D3D11VA (Intel(R) UHD Graphics 630, vendor 8086(Intel), device 9bc5, revision 5) for hardware decoding
+drawable warning: unsupported control query 3
+﻿-- logger module started --
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+mp4 warning: CTTS table of 9317 entries
+mp4 warning: elst box found
+mp4 warning: STTS table of 4916 entries
+faad warning: decoded zero sample
+avcodec: Using D3D11VA (Intel(R) UHD Graphics 630, vendor 8086(Intel), device 9bc5, revision 5) for hardware decoding
+drawable warning: unsupported control query 3
+http error: local stream 1 error: Cancellation (0x8)
+http error: local stream 3 error: Cancellation (0x8)
+http error: local stream 5 error: Cancellation (0x8)
+http error: local stream 7 error: Cancellation (0x8)
+http error: local stream 9 error: Cancellation (0x8)
+direct3d11 error: SetThumbNailClip failed: 0x800706f4
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+mp4 warning: CTTS table of 7630 entries
+mp4 warning: elst box found
+mp4 warning: STTS table of 2 entries
+faad warning: decoded zero sample
+avcodec: Using D3D11VA (Intel(R) UHD Graphics 630, vendor 8086(Intel), device 9bc5, revision 5) for hardware decoding
+drawable warning: unsupported control query 3
+http error: local stream 1 error: Cancellation (0x8)
+mp4 warning: track[0x2] will be disabled (eof?): Failed to read 347 bytes sample at 4229474
+main warning: picture is too late to be displayed (missing 58297 ms)
+main error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 1000 ms)
+http error: local stream 3 error: Cancellation (0x8)
+direct3d11 error: SetThumbNailClip failed: 0x800706f4
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+mp4 warning: CTTS table of 12250 entries
+mp4 warning: elst box found
+mp4 warning: STTS table of 86 entries
+faad warning: decoded zero sample
+avcodec: Using D3D11VA (Intel(R) UHD Graphics 630, vendor 8086(Intel), device 9bc5, revision 5) for hardware decoding
+drawable warning: unsupported control query 3
+main warning: buffer too late (-11612001 us): dropped
+main warning: buffer too late (-11590667 us): dropped
+main warning: buffer too late (-11569334 us): dropped
+main warning: buffer too late (-11548001 us): dropped
+main warning: picture is too late to be displayed (missing 11798 ms)
+main warning: picture is too late to be displayed (missing 11765 ms)
+main warning: picture is too late to be displayed (missing 11732 ms)
+main warning: buffer too late (-11587667 us): dropped
+main error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 1000 ms)
+main warning: buffer too late (-11567334 us): dropped
+main warning: buffer too late (-11546001 us): dropped
+main warning: picture is too late to be displayed (missing 11760 ms)
+main warning: picture is too late to be displayed (missing 11727 ms)
+main warning: buffer too late (-220646 us): dropped
+main warning: picture is too late to be displayed (missing 123 ms)
+main warning: buffer too late (-199313 us): dropped
+main warning: buffer too late (-177980 us): dropped
+main warning: buffer too late (-156646 us): dropped
+main warning: buffer too late (-135313 us): dropped
+main warning: picture is too late to be displayed (missing 90 ms)
+main warning: buffer too late (-113980 us): dropped
+main warning: buffer too late (-92646 us): dropped
+main warning: buffer too late (-71313 us): dropped
+main warning: picture is too late to be displayed (missing 56 ms)
+main warning: picture is too late to be displayed (missing 23 ms)
+main warning: playback too late (64188): up-sampling
+﻿-- logger module started --
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+mp4 warning: CTTS table of 7630 entries
+mp4 warning: elst box found
+mp4 warning: STTS table of 2 entries
+faad warning: decoded zero sample
+avcodec: Using D3D11VA (Intel(R) UHD Graphics 630, vendor 8086(Intel), device 9bc5, revision 5) for hardware decoding
+drawable warning: unsupported control query 3
+http error: local stream 1 error: Cancellation (0x8)
+http error: local stream 3 error: Cancellation (0x8)
+http error: local stream 5 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 30 ms)
+main warning: buffer too late (-7563330 us): dropped
+main warning: buffer too late (-7541997 us): dropped
+main warning: picture is too late to be displayed (missing 7774 ms)
+main warning: buffer too late (-7521663 us): dropped
+main warning: buffer too late (-7500330 us): dropped
+main warning: buffer too late (-7478997 us): dropped
+main warning: buffer too late (-7457663 us): dropped
+main warning: buffer too late (-7437330 us): dropped
+main warning: picture is too late to be displayed (missing 7735 ms)
+main warning: buffer too late (-7415997 us): dropped
+main warning: buffer too late (-7394663 us): dropped
+main warning: picture is too late to be displayed (missing 7695 ms)
+main warning: picture is too late to be displayed (missing 7656 ms)
+main error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 3000 ms)
+main warning: picture is too late to be displayed (missing 7617 ms)
+main warning: picture is too late to be displayed (missing 7577 ms)
+main warning: buffer too late (-237334 us): dropped
+main warning: picture is too late to be displayed (missing 80 ms)
+main warning: buffer too late (-216001 us): dropped
+main warning: buffer too late (-194668 us): dropped
+main warning: buffer too late (-173334 us): dropped
+main warning: buffer too late (-152001 us): dropped
+main warning: buffer too late (-130668 us): dropped
+main warning: buffer too late (-109334 us): dropped
+main warning: buffer too late (-88001 us): dropped
+main warning: buffer too late (-66668 us): dropped
+main warning: picture is too late to be displayed (missing 42 ms)
+main warning: playback too late (61397): up-sampling
+main error: Timestamp conversion failed for 113720001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 7 error: Cancellation (0x8)
+gnutls error: Error decoding the received TLS packet.
+http error: peer stream 11 error: Cancellation (0x8)
+http error: peer stream 9 error: Cancellation (0x8)
+gnutls error: The specified session has been invalidated for some reason.
+main error: connection error: Interrupted function call
+mp4 warning: track[0x2] will be disabled (eof?): Failed to read 350 bytes sample at 23916426
+main warning: buffer too late (-18561000 us): dropped
+mp4 warning: track[0x1] will be disabled (eof?): Failed to read 9357 bytes sample at 23916776
+main warning: picture is too late to be displayed (missing 18622 ms)
+gnutls error: The specified session has been invalidated for some reason.
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+mp4 warning: CTTS table of 7630 entries
+mp4 warning: elst box found
+mp4 warning: STTS table of 2 entries
+faad warning: decoded zero sample
+avcodec: Using D3D11VA (Intel(R) UHD Graphics 630, vendor 8086(Intel), device 9bc5, revision 5) for hardware decoding
+http error: local stream 1 error: Cancellation (0x8)
+http error: local stream 3 error: Cancellation (0x8)
+main warning: buffer too late (-142039668 us): dropped
+http error: local stream 5 error: Cancellation (0x8)
+http error: local stream 7 error: Cancellation (0x8)
+direct3d11 error: SetThumbNailClip failed: 0x800706f4
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+mp4 warning: CTTS table of 7504 entries
+mp4 warning: elst box found
+mp4 warning: STTS table of 2 entries
+faad warning: decoded zero sample
+avcodec: Using D3D11VA (Intel(R) UHD Graphics 630, vendor 8086(Intel), device 9bc5, revision 5) for hardware decoding
+drawable warning: unsupported 

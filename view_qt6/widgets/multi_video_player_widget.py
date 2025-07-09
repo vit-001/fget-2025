@@ -263,6 +263,7 @@ class VideoPlayerWidget(QWidget):
 
         if Setting.use_vlc:
             self.player = VlcVideoWidget(self.ui.top_frame)
+            # print('VLC init')
         else:
             self.player = QtVideoWidget(self.ui.top_frame)
 
