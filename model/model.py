@@ -64,6 +64,7 @@ from model.site.video.script.analdin import AnaldinSite
 from model.site.video.script.zatube import ZatubeSite
 from model.site.video.script.pornhub import PornhubSite
 from model.site.video.script.pornk import PornkSite
+from model.site.video.script.brbz import BrbzSite
 
 from model.site.video.simple.bravotube import BravotubeSite
 from model.site.video.simple.freeuseporn import FreeusepornSite
@@ -105,6 +106,12 @@ from model.site.video.simple.porus import PorusSite
 from model.site.video.simple.spankbang import SpankbangSite
 from model.site.video.simple.darknessporn import DarknesspornSite
 from model.site.video.simple.fetishshrine import FetishshrineSite
+from model.site.video.simple.rahaporn import RahapornSite
+from model.site.video.simple.rahatupu import RahatupuSite
+from model.site.video.simple.anysex import AnysexSite
+from model.site.video.simple.ajax_pagination.pornone import PornoneSite
+
+from model.site.video.tricky.mzansiporn import MzansipornSite
 
 from model.site.video.yt_dlp.sosalkino import SosalkinoSite
 from model.site.video.yt_dlp.ajax_pagination.huyamba import HuyambaSite
@@ -120,6 +127,11 @@ from model.site.video.yt_dlp.sunporno import SunpornoSite
 from model.site.video.yt_dlp.ajax_pagination.two_porno import TwoPornoSite
 from model.site.video.yt_dlp.ajax_pagination.tytporno import TytpornoSite
 from model.site.video.yt_dlp.youjizz import YoujizzSite
+from model.site.video.yt_dlp.kojka import KojkaSite
+from model.site.video.yt_dlp.ajax_pagination.fapnow import FapnowSite
+from model.site.video.yt_dlp.ajax_pagination.porngem import PorngemSite
+from model.site.video.yt_dlp.ajax_pagination.ebony8 import Ebony8Site
+from model.site.video.yt_dlp.whoreshub import WhoreshubSite
 
 class Model(ModelFromControllerInterface, ModelFromSiteInterface):
 
@@ -129,12 +141,12 @@ class Model(ModelFromControllerInterface, ModelFromSiteInterface):
         self._site_models=[
                             TestSite,
                             
-                            Space('Classic:'),XhamsterSite,PornhubSite, YoujizzSite,AnaldinSite,SosalkinoSite, HuyambaSite,EpornerSite,XozillaSite,SosushkaSite,XgroovySite,SunpornoSite,
-                            XxxperevodSite,YourpornSite,PornopotokSite,FetishshrineSite, PorndrSite,
+                            Space('Classic:'),SosushkaSite,XhamsterSite,WhoreshubSite,PornoneSite,PornhubSite, XxxperevodSite,PornicomSite,PornxxxvideosSite,PorusSite,AnysexSite,YoujizzSite,AnaldinSite,SosalkinoSite, HuyambaSite,EpornerSite,XozillaSite,XgroovySite,SunpornoSite,
+                            YourpornSite,PornopotokSite,FetishshrineSite, PorndrSite,BrbzSite,Ebony8Site,RahapornSite,RahatupuSite,MzansipornSite,KojkaSite,FapnowSite,PorngemSite,
                             GigpornoSite,EblknSite,VtraheSite,ProstopornoSite,MobifcukSite,TrendyPornSite,RedtubeSite,BingatoSite,XhandSite,UppornxSite,Strip2Site,PornobombaSite,
                             DarknesspornSite,PervclipsSite,SpankbangSite,TwoPornoSite,TytpornoSite,
-                            InxxxSite,OgpornSite,XcumSite,PornicomSite,VikipornSite,PornwhiteSite,RulepornSite,
-                            SextubeNlSite,TubousSite,FreepornSite,PornpapaSite,PornxxxvideosSite,ErothotsSite,PorusSite,PornkSite,
+                            InxxxSite,OgpornSite,XcumSite,VikipornSite,PornwhiteSite,RulepornSite,
+                            SextubeNlSite,TubousSite,FreepornSite,PornpapaSite,ErothotsSite,PornkSite,
 
 
                             IncestflixSite,MotherlessSite,ShockingmoviesSite, BdsmstreakSite, CrazyshitSite, ZatubeSite,CumlouderSite,PornoaktSite,PornvideobbSite,XtitsSite,
@@ -173,7 +185,7 @@ class Model(ModelFromControllerInterface, ModelFromSiteInterface):
 
 
                             Space('Static:'),
-            TryboobsSite,SpicyflixSite,StileprojectSite, FapguruSite,PornwatchersSite,
+                            TryboobsSite,SpicyflixSite,StileprojectSite, FapguruSite,PornwatchersSite,
 
 
 

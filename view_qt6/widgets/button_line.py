@@ -7,6 +7,8 @@ from PyQt6.QtWidgets import *
 
 from common.util import get_menu_handler
 
+from common.setting import Setting
+
 class ActionButton(QToolButton):
     def __init__(self,tooltip:str, action:lambda:None):
         # print('Create AcB', tooltip)
@@ -15,9 +17,11 @@ class ActionButton(QToolButton):
         self.setToolTip(tooltip)
         self.setAutoRaise(True)
         self.remove=None
+
+        self.set_button_style()
         # print('AcB ok')
 
-    def set_button_style(self, attr_value_dict: dict):
+    def set_button_style(self, attr_value_dict: dict=None):
         """
         :param attr_value_dict:
                 Available styles:
@@ -33,8 +37,17 @@ class ActionButton(QToolButton):
 
             Example: button.set_button_style({'color':'magenta' , 'font_size': 18})
         """
+
+
         if not attr_value_dict:
-            return
+            attr_value_dict=dict()
+
+        # set default style
+        for style_item in Setting.default_button_style:
+            if style_item not in attr_value_dict:
+                attr_value_dict[style_item]=Setting.default_button_style[style_item]
+
+
         style=''
         if 'color' in attr_value_dict and attr_value_dict['color']:
             style+='color: '+ attr_value_dict['color'] +';'

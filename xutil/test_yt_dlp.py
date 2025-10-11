@@ -30,4 +30,14 @@ def get_all_video_urls(url):
 
 
 if __name__ == "__main__":
-    get_all_video_urls("https://www.youjizz.com/videos/thick-babe-jordyn-falls-shakes-her-big-ass-before-sliding-on-johnny%27s-cock-109287901.html")
+    import pyperclip
+
+    # Получить текст из буфера обмена
+    clipboard_text = pyperclip.paste()
+    print("Текст из буфера обмена:", clipboard_text)
+
+    if clipboard_text.startswith('https://'):
+        get_all_video_urls(clipboard_text)
+    else:
+
+        get_all_video_urls("")

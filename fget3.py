@@ -101,6 +101,10 @@ if __name__ == '__main__':
                 print('Use python-vlc')
                 Setting.use_vlc=True
 
+            if item.startswith('-res_'):
+                print('Set default resolution to', item.split('_')[1])
+                Setting.default_resolution=item.split('_')[1]
+
             if item.startswith('-pdude='):
                 print('PornDude compile:', item.rpartition('=')[-1])
                 Setting.parce_links_file=True

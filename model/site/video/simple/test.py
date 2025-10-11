@@ -26,8 +26,8 @@ class TestSite(BaseSiteParser):
         return 'TT'
 
     def parse_video(self, soup: BeautifulSoup, url: URL):
-        t = 'https://porno-video.stream/xxx_nofacegirl.mp4'
-        referrer=URL('https://2porno.online/45-batya-reshil-kayfovo-poebatsya.html')
+        t = 'https://ok.xxx/get_file/13/63f3086f87736950ad29dff83e47755f/308000/308856/308856_720p.mp4/'
+        referrer=URL('https://www.ebony8.com/videos/216847/horror-anal-team-fuck-with-ebony-hotty-marie-luv-marie-ebony/?utm_source=donnie')
         self.add_video('DEFAULT', URL(t, redirect=False, referer=referrer))
 
 if __name__ == "__main__":

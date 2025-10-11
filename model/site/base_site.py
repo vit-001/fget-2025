@@ -213,6 +213,10 @@ class BaseSite(SiteInterface, ParseResult):
                 self.log('  ',item['text'], item['url'])
             self.log('  Default:', self.video_default_index)
 
+        for num,item in enumerate(self.video_data):
+            if Setting.default_resolution in item['text']:
+                self.video_default_index=num
+
         view.set_video_list(self.video_data, self.video_default_index)
 
         self.add_controls_to_view(view)

@@ -32,10 +32,11 @@ class XhamsterSite(BaseSiteParser):
             # pretty(thumb_container)
             for thumb in _iter(thumb_container.find_all('div',{'class':'video-thumb'})):
                 try:
-                    # pretty(thumb)
+                    pretty(thumb)
                     href = URL(thumb.a.attrs['href'], base_url=url)
                     description = thumb.a.img.attrs['alt']
                     thumb_url = URL(thumb.img.attrs['src'], base_url=url)
+                    psp(thumb_url)
 
                     duration = thumb.find('div', {'data-role':'video-duration'})
                     dur_time = '' if duration is None else str(duration.string)
@@ -48,7 +49,9 @@ class XhamsterSite(BaseSiteParser):
                                             {'text': description, 'align': 'bottom center'},
                                             {'text': qual, 'align': 'top left', 'bold': True}])
                 except AttributeError as e:
-                    print(e.__repr__())
+                    # pretty(thumb)
+                    # print(e.__repr__())
+                    pass
 
 
     def parse_thumb_title(self, soup: BeautifulSoup, url: URL) -> str:
@@ -60,7 +63,7 @@ class XhamsterSite(BaseSiteParser):
     def parse_video(self, soup: BeautifulSoup, url: URL):
         container = soup.find('div', {'class': 'player-container'})
         if container:
-            # pretty(video)
+            # pretty(container)
             self.set_video_get_from_yt_dlp()
             self.set_default_video(-1)
 
@@ -76,26 +79,33 @@ class XhamsterSite(BaseSiteParser):
                     print("Нет доступных форматов или сайт заблокирован.")
                     return
 
+                # print(f"Доступные форматы для: {info['title']}\n")
+                # for fmt in info['formats']:
+                #     print(
+                #         f"ID: {fmt['format_id']} | "
+                #         f"Тип: {fmt['ext']} | "
+                #         f"Качество: {fmt.get('resolution', '?')} | "
+                #         f"URL: {fmt['url']}"
+                #     )
+
                 self.title=info['title']
 
                 for fmt in info['formats']:
-                    if 'mp4' in fmt['format_id']:
+                    if not '.m3u8' in fmt['url']:
                         self.add_video(fmt['format_id'], URL(fmt['url'],redirect=self.redirect))
 
         except Exception as e:
-            pass
+            print(e.__repr__())
 
     def parse_video_tags(self, soup: BeautifulSoup, url: URL):
         container = soup.find('nav', {'id': 'video-tags-list-container'})
 
         if container:
-            # pretty(container)
+            pretty(container)
             for item in _iter(container.find_all('a', href=lambda x:'/pornstars/' in str(x))):
                 # pretty(item)
-                href = item.attrs.get('href', '')
+                href = item.attrs.get('href', '')+'/newest'
                 title = item.attrs.get('title', collect_string_to_array(item)[0])
-                # if '/cat/pornstar/' in href:
-                #     continue
                 self.add_tag(title, URL(href, base_url=url), style=dict(color='red'))
 
             for item in _iter(container.find_all('a', href=lambda x:'/channels/' in str(x))):

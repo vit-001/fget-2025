@@ -10,6 +10,7 @@ class Setting:
     global_data_path = 'common/globals/'
 
     use_vlc=False
+    default_resolution='720'
 
     main_window_x0_in_percents = 2
     main_window_y0_in_percents = 5
@@ -36,6 +37,13 @@ class Setting:
 
     parce_links_file=None
     parcer_for_links_file=None
+
+#     View customise
+
+    default_button_style= {
+    # 'background': '#d7d717',
+    }
+
 
 if __name__ == "__main__":
     pass

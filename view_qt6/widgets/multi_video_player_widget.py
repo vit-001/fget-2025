@@ -140,7 +140,7 @@ class VlcVideoWidget(QFrame, BaseVideoWidget):
         # print('VlcVideoWidget..init start')
         self.duration=0
         self.saved_position = None
-        self.busy=True
+        # self.busy=True
 
         # Создаем экземпляр VLC с параметрами логирования
         if VlcVideoWidget.__vlc_instance is None:
@@ -153,6 +153,7 @@ class VlcVideoWidget(QFrame, BaseVideoWidget):
         self.media_player.video_set_mouse_input(False)
 
         self.media = None
+        # self.new_position=None
 
         self.event=self.media_player.event_manager()
         self.event.event_attach(vlc.EventType.MediaPlayerPositionChanged, self.positionChanged)
@@ -204,6 +205,7 @@ class VlcVideoWidget(QFrame, BaseVideoWidget):
         current_position=self.media_player.get_position()
         new_position=current_position*self.duration + second*1000.0
         if new_position < self.duration:
+            # self.new_position=int(new_position)
             self.media_player.set_position(new_position/self.duration)
 
     def set_position(self, position:int):
@@ -225,14 +227,18 @@ class VlcVideoWidget(QFrame, BaseVideoWidget):
 
     def buffering_event(self,e):
         # print('VlcVideoWidget..buffering_event')
-        self.busy= e.u.new_cache <90.0
-        # print(e.u.new_cache, self.busy)
+        # self.busy= e.u.new_cache <90.0
+        # print(e.u.new_cache, self.busy,self.new_position)
         self.on_buffered_changed(int(e.u.new_cache))
 
     def positionChanged(self, position):
         # print('VlcVideoWidget..positionChanged', position.u.new_position)
         pos=int(position.u.new_position*self.duration)
         self.on_position_changed(pos,time_format(pos) + ' / ' + time_format(int(self.duration)))
+        # if not self.busy and self.new_position:
+        #     print('Setting position to ', self.new_position)
+        #     self.set_position(self.new_position)
+        #     self.new_position=None
 
     def mute(self, on:bool):
         # print('VlcVideoWidget..mute', on)
@@ -263,6 +269,7 @@ class VideoPlayerWidget(QWidget):
 
         if Setting.use_vlc:
             self.player = VlcVideoWidget(self.ui.top_frame)
+            # print('VLC init')
         else:
             self.player = QtVideoWidget(self.ui.top_frame)
 
