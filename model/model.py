@@ -141,8 +141,8 @@ class Model(ModelFromControllerInterface, ModelFromSiteInterface):
         self._site_models=[
                             TestSite,
                             
-                            Space('Classic:'),SosushkaSite,XhamsterSite,PornoneSite,PornhubSite, XxxperevodSite,PornicomSite,PornxxxvideosSite,PorusSite,AnysexSite,YoujizzSite,AnaldinSite,SosalkinoSite, HuyambaSite,EpornerSite,XozillaSite,XgroovySite,SunpornoSite,
-                            YourpornSite,WhoreshubSite,PornopotokSite,FetishshrineSite, PorndrSite,BrbzSite,Ebony8Site,RahapornSite,RahatupuSite,MzansipornSite,KojkaSite,FapnowSite,PorngemSite,
+                            Space('Classic:'),SosushkaSite,XhamsterSite,WhoreshubSite,PornoneSite,PornhubSite, XxxperevodSite,PornicomSite,PornxxxvideosSite,PorusSite,AnysexSite,YoujizzSite,AnaldinSite,SosalkinoSite, HuyambaSite,EpornerSite,XozillaSite,XgroovySite,SunpornoSite,
+                            YourpornSite,PornopotokSite,FetishshrineSite, PorndrSite,BrbzSite,Ebony8Site,RahapornSite,RahatupuSite,MzansipornSite,KojkaSite,FapnowSite,PorngemSite,
                             GigpornoSite,EblknSite,VtraheSite,ProstopornoSite,MobifcukSite,TrendyPornSite,RedtubeSite,BingatoSite,XhandSite,UppornxSite,Strip2Site,PornobombaSite,
                             DarknesspornSite,PervclipsSite,SpankbangSite,TwoPornoSite,TytpornoSite,
                             InxxxSite,OgpornSite,XcumSite,VikipornSite,PornwhiteSite,RulepornSite,

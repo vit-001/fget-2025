@@ -38,5 +38,12 @@ class Setting:
     parce_links_file=None
     parcer_for_links_file=None
 
+#     View customise
+
+    default_button_style= {
+    # 'background': '#d7d717',
+    }
+
+
 if __name__ == "__main__":
     pass
