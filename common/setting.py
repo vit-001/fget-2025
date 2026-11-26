@@ -31,6 +31,8 @@ class Setting:
     debug_view=True
     debug_loader=True
 
+    suppress_external_debugging_output=True
+
     site_statistic=True
 
     log=None

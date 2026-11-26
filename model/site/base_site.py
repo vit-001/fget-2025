@@ -13,8 +13,10 @@ from interface.site_interface import SiteInterface
 
 
 class ThumbData(FLData):
-    def __init__(self, thumb_url: URL, thumb_filename: str, href:URL, popup:str='', labels:list=list()):
+    def __init__(self, thumb_url: URL, thumb_filename: str, href:URL, popup:str='', labels=None):
         super().__init__(thumb_url, filename=thumb_filename, overwrite=False)
+        if labels is None:
+            labels = list()
         self.href=href
         self.popup=popup
         self.labels=labels
@@ -25,6 +27,8 @@ class ParseResult:
 
         self._result_type= 'none'
         self.redirect=False
+        self._yt_dlp_id_filter = lambda str: True
+        self._yt_dlp_url_filter = lambda str: True
         self.title=''
 
         self.waiting_data=False
@@ -33,6 +37,7 @@ class ParseResult:
 
         self.video_data = []
         self.video_default_index=0
+        self.video_default_index_override=False
 
         self.pictures=[]
 
@@ -68,11 +73,14 @@ class ParseResult:
     def sort_video(self):
         self.video_data.sort(key=lambda x:int(x['text']))
 
-    def set_video_get_from_yt_dlp(self):
+    def set_video_get_from_yt_dlp(self, id_filter=lambda str:True,url_filter=lambda str:True):
         self._result_type = 'yt_dlp'
+        self._yt_dlp_id_filter=id_filter
+        self._yt_dlp_url_filter = url_filter
 
-    def set_default_video(self, default=0):
+    def set_default_video(self, default=0, override=False):
         self.video_default_index=default
+        self.video_default_index_override=override
 
     @property
     def is_video(self)->bool:
@@ -101,6 +109,7 @@ class BaseSite(SiteInterface, ParseResult):
         self.model=model
         self.start_options=dict()
         self._log=Setting.log
+        self.pagination_method='Auto'
 
     @staticmethod
     def number_of_accepted_dimains() ->int:
@@ -213,9 +222,10 @@ class BaseSite(SiteInterface, ParseResult):
                 self.log('  ',item['text'], item['url'])
             self.log('  Default:', self.video_default_index)
 
-        for num,item in enumerate(self.video_data):
-            if Setting.default_resolution in item['text']:
-                self.video_default_index=num
+        if not self.video_default_index_override:
+            for num,item in enumerate(self.video_data):
+                if Setting.default_resolution in str(item['text']):
+                    self.video_default_index=num
 
         view.set_video_list(self.video_data, self.video_default_index)
 

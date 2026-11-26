@@ -100,6 +100,10 @@ class URL:
             p2 = p2.rpartition('/')[0] + '/'
         return base.rstrip('/') + '/' + p[1] + p2.rstrip('/') + '/'
 
+    def get_base_url(self):
+        parsed = urlparse(self.get())
+        return f"{parsed.scheme}://{parsed.netloc}/"
+
     def domain(self):
         return  urlparse(self.get())[1]
 

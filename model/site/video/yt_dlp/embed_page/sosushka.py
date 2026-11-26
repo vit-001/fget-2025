@@ -72,6 +72,8 @@ class SosushkaSite(BaseSiteParser):
 
     def parse_video_with_yt_dlp(self, soup:BeautifulSoup, url:URL):
         super().parse_video_with_yt_dlp(soup, self.url)
+        if len(self.video_data) == 4:
+            self.set_default_video(1)
 
     def parse_video_tags(self, soup: BeautifulSoup, url: URL):
         container=soup.find('div', {'class': 'full-links'})

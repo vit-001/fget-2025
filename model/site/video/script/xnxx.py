@@ -25,7 +25,7 @@ class XnxxSite(BaseSiteParser):
 
         view.add_start_button(picture_filename='model/site/resource/xnxx.png',
                               menu_items=menu_items,
-                              url=URL("https://www.xnxx-ru.com/hits/month"))
+                              url=URL("https://www.xnxx-ru.com/best/"))
 
     def get_shrink_name(self):
         return 'XNXX'
@@ -35,32 +35,33 @@ class XnxxSite(BaseSiteParser):
         if container:
             # pretty(container)
             for thumbnail in _iter(container.find_all('div',{'class':'thumb-block'})):
-                # pretty(thumbnail)
+                try:
+                    pretty(thumbnail)
+                    xref = thumbnail.find('a', href=True)
+                    href = URL(xref.attrs['href'], base_url=url)
 
-                # pretty(item)
-                inside = thumbnail.find('div', {'class': 'thumb-inside'})
-                under = thumbnail.find('div', {'class': 'thumb-under'})
-                # pretty(inside)
-                # pretty(under)
+                    img = thumbnail.find('img')
+                    thumb_url = URL(img.attrs.get('data-src',img.attrs.get('data-sfwthumb')), base_url=url)
+                    label = img.attrs.get('alt')
 
-                href = under.find('a')
-                xref_url = URL(href.attrs['href'], base_url=url)
-                label = href.attrs['title']
+                    title_tag = thumbnail.find('a', {'class': 'title'})
+                    label = '' if title_tag is None else collect_string(title_tag)
 
-                # script=thumbnail.script.string
-                # thumb_url = URL(quotes(script,'src="','"'), base_url=url)
-                thumb_url = URL(inside.img.attrs['data-src'], base_url=url)
+                    duration = thumbnail.find('div', {'class': 'metadata'})
+                    dur_time = '' if duration is None else collect_string_to_array(duration)[0]
 
-                duration = under.find('p', {'class': 'metadata'})
-                # psp(collect_string_to_array(duration)[-1])
-                dur_time = collect_string_to_array(duration)[-1]
+                    hd_tag = thumbnail.find('span', {'class': 'video-hd'})
+                    hd = '' if hd_tag is None else collect_string_to_array(hd_tag)[-1]
 
-                # hd_span = thumbnail.find('span', {'class': 'video-hd-mark'})
-                # hd = '' if hd_span is None else str(hd_span.string)
-
-                self.add_thumb(thumb_url=thumb_url, href=xref_url, popup=label,
-                               labels=[{'text': dur_time, 'align': 'top right'},
-                                       {'text': label, 'align': 'bottom center'}])
+                    # psp(thumb_url,href,label,dur_time,hd)
+                    self.add_thumb(thumb_url=thumb_url, href=href, popup=label,
+                                   labels=[{'text': dur_time, 'align': 'top right'},
+                                           # {'text': count, 'align': 'top right'},
+                                           {'text': label, 'align': 'bottom center'},
+                                           {'text': hd, 'align': 'top left'}])
+                except AttributeError as e:
+                    print('AttributeError',e.name)
+                    pass
                 #
 
 
@@ -108,12 +109,17 @@ class XnxxSite(BaseSiteParser):
                 text=script.prettify()
                 # psp(text)
                 for line in text.split(';'):
-                    # psp(line)
+                    psp(line)
                     if line.strip().startswith('html5player.setVideoUrl'):
                         label=quotes(line,'setVideoUrl','(')
                         video_url=URL(quotes(line,"('","')"),base_url=url)
                         self.add_video(label, video_url)
-                self.set_default_video(-1)
+                    if line.strip().startswith('html5player.setVideoHLS'):
+                        label = 'HLS'
+                        video_url = URL(quotes(line, "('", "')"), base_url=url)
+                        self.add_video(label, video_url)
+
+                self.set_default_video(-2)
 
     def parse_video_tags(self, soup: BeautifulSoup, url: URL):
         container = soup.find('div', {'class': 'video-tags'})

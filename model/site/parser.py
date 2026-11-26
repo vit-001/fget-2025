@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 __author__ = 'Vit'
+import time
 from bs4 import BeautifulSoup
 import yt_dlp
 
@@ -71,7 +72,8 @@ class BaseSiteParser(BaseSite):
                 self.title=info['title']
 
                 for fmt in info['formats']:
-                    self.add_video(fmt['format_id'], URL(fmt['url'],redirect=self.redirect))
+                    if self._yt_dlp_id_filter(fmt['format_id']) and self._yt_dlp_url_filter(fmt['url']):
+                        self.add_video(fmt['format_id'], URL(fmt['url'],redirect=self.redirect))
 
         except Exception as e:
             pass
@@ -82,13 +84,69 @@ class BaseSiteParser(BaseSite):
     def parse_others(self, soup:BeautifulSoup, url:URL):
         pass
 
+    # def parse_pagination(self, soup: BeautifulSoup, url: URL):
+    #     container = self.get_pagination_container(soup)
+    #     if container:
+    #         for page in _iter(container.find_all('a', {'href': True})):
+    #             if page.string and str(page.string).strip().isdigit():
+    #                 self.add_page(str(page.string).strip(), URL(page.attrs['href'], base_url=url))
+    #                 # print('Add page',page.string, URL(page.attrs['href'], base_url=url), page.attrs['href'])
+
     def parse_pagination(self, soup: BeautifulSoup, url: URL):
+
         container = self.get_pagination_container(soup)
-        if container:
-            for page in _iter(container.find_all('a', {'href': True})):
-                if page.string and str(page.string).strip().isdigit():
-                    self.add_page(str(page.string).strip(), URL(page.attrs['href'], base_url=url))
-                    # print('Add page',page.string, URL(page.attrs['href'], base_url=url), page.attrs['href'])
+        if not container:
+            return
+
+        method = getattr(self, 'pagination_method', 'Auto')
+
+        for page in _iter(container.find_all('a', href=True)):
+            page_text = collect_string(page).strip()
+            if not page_text:
+                continue
+
+            href = page.attrs.get('href', '').strip()
+            data_action = page.attrs.get('data-action')
+
+            # Определяем, нужно ли собирать AJAX-ссылку
+            if method == 'Ajax':
+                is_ajax = True
+            elif method == 'Simple':
+                is_ajax = False
+            else:  # 'Auto'
+                is_ajax = (data_action == 'ajax' or href.startswith('#'))
+
+            if is_ajax:
+                data_block_id = page.attrs.get('data-block-id')
+                raw_params = page.attrs.get('data-parameters')
+
+                if not data_block_id or not raw_params:
+                    continue
+
+                # Разбираем параметры с учетом составных ключей через '+'
+                params_list = []
+                for item in raw_params.split(';'):
+                    if ':' in item:
+                        keys, val = item.split(':', 1)
+                        for k in keys.split('+'):
+                            params_list.append(f"{k}={val}")
+
+                data_parameters = "&".join(params_list)
+                timestamp = int(time.time() * 1000)
+
+                query = f'?mode=async&function=get_block&block_id={data_block_id}&{data_parameters}&_={timestamp}'
+                page_url = URL(query, base_url=url)
+
+                self.add_page(page_text, page_url)
+            else:
+                # Обычная прямая ссылка (пропускаем пустые якоря, если это не AJAX)
+                if not href or href.startswith('#'):
+                    continue
+
+                self.add_page(page_text, URL(href, base_url=url))
+
+    def set_pagination_method(self,pagination_method='Auto'):
+        self.pagination_method = pagination_method
 
     def get_pagination_container(self, soup: BeautifulSoup) -> BeautifulSoup:
         return soup.find('div', {'class': 'pagination'})

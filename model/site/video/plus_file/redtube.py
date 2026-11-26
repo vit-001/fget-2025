@@ -55,7 +55,7 @@ class RedtubeSite(BaseSiteParser):
             for thumbnail in _iter(container.find_all('li', {'class':'tm_video_block'})):
                 try:
                     # psp(thumbnail.prettify())
-                    # pretty(thumbnail)
+                    pretty(thumbnail)
                     xref=thumbnail.find('a',href=True)
                     href = URL(xref.attrs['href'], base_url=url)
                     img=thumbnail.find('img',{'data-src':True})

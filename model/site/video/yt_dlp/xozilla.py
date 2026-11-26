@@ -79,6 +79,25 @@ class XozillaSite(BaseSiteParser):
 
     def get_pagination_container(self, soup: BeautifulSoup) -> BeautifulSoup:
         return soup.find('div',{'class':'pagination'})
+    #
+    def parse_pagination(self, soup: BeautifulSoup, url: URL):
+        container = self.get_pagination_container(soup)
+        if container:
+            req_base=url.get().split('?mode=')[0]
+            # print(url, req_base)
+            for page in _iter(container.find_all('a', {'href': True})):
+                if page.string and str(page.string).strip().isdigit():
+                    if page.attrs.get('data-action') == 'ajax':
+                        data_block_id = page.attrs.get('data-block-id')
+                        data_parameters = page.attrs.get('data-parameters').replace(':','=').replace(';','&')
+
+                        req_addr = req_base + '?mode=async&function=get_block&block_id={0}&{1}'.format(
+                            data_block_id, data_parameters)
+                        self.add_page(str(page.string).strip(), URL(req_addr))
+                    else:
+                        self.add_page(str(page.string).strip(), URL(page.attrs['href'], base_url=url))
+                    # print('Add page',page.string, URL(page.attrs['href'], base_url=url), page.attrs['href'])
+
 
     def parse_video(self, soup: BeautifulSoup, url: URL):
         container=soup.find('div',{'class':'player'})

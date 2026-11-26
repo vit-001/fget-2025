@@ -17,7 +17,7 @@ class HuyambaSite(BaseSiteParser):
         menu_items=dict()
         view.add_start_button(picture_filename='model/site/resource/huyamba.svg',
                               menu_items=menu_items,
-                              url=URL("https://wvvw.huyamba.mobi/videos/"))
+                              url=URL("https://retro.huyamba.mobi/videos/"))
 
     def get_shrink_name(self):
         return 'HM'

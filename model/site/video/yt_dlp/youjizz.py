@@ -128,7 +128,7 @@ class YoujizzSite(BaseSiteParser):
 
         # pretty(container)
         if container:
-            pretty(container)
+            # pretty(container)
             for item in _iter(container.find_all('a', href=lambda x:'/pornstars/' in str(x))):
                 # pretty(item)
                 href = item.attrs.get('href', '')

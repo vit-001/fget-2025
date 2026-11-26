@@ -45,7 +45,8 @@ class Strip2Site(BaseSiteParser):
                     xref = thumbnail.find('a', href=True)
                     href = URL(xref.attrs['href'], base_url=url)
                     img = thumbnail.find('img')
-                    thumb_url = URL(img.attrs.get('src'), base_url=url,redirect=True)
+                    # psp(img.attrs.get('src'))
+                    thumb_url = URL(img.attrs.get('data-s',img.attrs.get('src')), base_url=url,redirect=True)
                     label = img.attrs.get('alt')
 
                     # title = thumbnail.find('div', {'class': 'item_title'})
@@ -80,21 +81,21 @@ class Strip2Site(BaseSiteParser):
 
 
     def get_pagination_container(self, soup: BeautifulSoup) -> BeautifulSoup:
-        return soup.find('div',{'class':'pag'})
+        return soup.find('table',{'class':'table__nums'})
 
 
     def parse_video(self, soup: BeautifulSoup, url: URL):
         # pretty(soup)
-        video = soup.find('div', {'class': 'video-player_container'})
+        video = soup.find('div', {'class': 'video-player-container'})
         if video:
-            pretty(video)
+            # pretty(video)
             sources=video.attrs.get('data-sources')
-            print(sources)
+            # print(sources)
             data_list = json.loads(sources)
-            print(data_list)
+            # print(data_list)
             if data_list:
                 for data in data_list:
-                    res=data['res']
+                    res=str(data['res'])
                     link=data['link']
 
                     print(res,link)

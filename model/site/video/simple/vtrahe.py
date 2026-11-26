@@ -14,7 +14,7 @@ from model.site.parser import BaseSiteParser
 class VtraheSite(BaseSiteParser):
     @staticmethod
     def can_accept_url(url: URL) -> bool:
-        return url.contain('vtrahe.page/')
+        return url.contain('vtrahe.')
 
     @staticmethod
     def create_start_button(view:ViewManagerFromModelInterface): #
@@ -26,7 +26,7 @@ class VtraheSite(BaseSiteParser):
 
         view.add_start_button(picture_filename='model/site/resource/Vtrahe.png',
                               # menu_items=menu_items,
-                              url=URL("https://sex.vtrahe.page/", test_string='порно'))
+                              url=URL("https://pc.vtrahe.io/"))
 
     def get_shrink_name(self):
         return 'VT'

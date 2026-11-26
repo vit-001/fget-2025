@@ -146,6 +146,7 @@ class VideoPlayerWidget(QWidget):
         self.ui.progress.setRange(0, duration)
         self.duration = duration
 
+
     def little_forward(self, second:int):
         current_position=self.media_player.position()
         new_position=current_position + second*1000

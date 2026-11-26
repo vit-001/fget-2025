@@ -26,8 +26,8 @@ class TestSite(BaseSiteParser):
         return 'TT'
 
     def parse_video(self, soup: BeautifulSoup, url: URL):
-        t = 'https://ok.xxx/get_file/13/63f3086f87736950ad29dff83e47755f/308000/308856/308856_720p.mp4/'
-        referrer=URL('https://www.ebony8.com/videos/216847/horror-anal-team-fuck-with-ebony-hotty-marie-luv-marie-ebony/?utm_source=donnie')
+        t = 'https://fp.spac.me/htz-xfc10/htz-xcs12/v/021174201082243129109164247084091201131064170011000173018075/1791662400/18617504/x3/8d30eb069e36a0e6c5589939b42625b4/file.mp4'
+        referrer=URL('')
         self.add_video('DEFAULT', URL(t, redirect=False, referer=referrer))
 
 if __name__ == "__main__":

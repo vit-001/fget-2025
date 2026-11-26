@@ -123,10 +123,31 @@ class Ui_VideoPlayerWidget(object):
         self.bn_mute.setObjectName("bn_mute")
         self.bottom_frame_layout.addWidget(self.bn_mute)
         self.bn_quality = QtWidgets.QToolButton(self.bottom_frame)
+        self.bn_quality.setStyleSheet("""
+            QToolButton {
+                background-color: #000000;      /* Чисто черный фон */
+                color: #ffffff;                  /* Белый цвет текста */
+                font-weight: bold;               /* Жирный шрифт */
+                font-size: 12px;                 /* Размер шрифта */
+                border: none;                    /* Убираем рамку, чтобы быть как иконка */
+                border-radius: 4px;              /* Легкое скругление углов */
+                padding: 0px 6px;                /* Отступы слева и справа */
+                min-height: 25px;                /* Минимальная высота (под размер иконки) */
+                max-height: 25px;                /* Максимальная высота */
+            }
+            QToolButton:hover {
+                background-color: #1a1a1a;      /* Эффект подсветки при наведении (темно-серый) */
+            }
+            QToolButton:pressed {
+                background-color: #333333;      /* Эффект при клике */
+            }
+        """)
         icon4 = QtGui.QIcon()
         icon4.addPixmap(QtGui.QPixmap("../resource/icons/ic_high_quality_black_48dp.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.bn_quality.setIcon(icon4)
-        self.bn_quality.setIconSize(QtCore.QSize(32, 32))
+        self.bn_quality.setProperty("hasText", True)
+        self.bn_quality.setText("HQ  ")
+        # self.bn_quality.setIcon(icon4)
+        # self.bn_quality.setIconSize(QtCore.QSize(32, 32))
         self.bn_quality.setPopupMode(QtWidgets.QToolButton.ToolButtonPopupMode.MenuButtonPopup)
         self.bn_quality.setAutoRaise(True)
         self.bn_quality.setArrowType(QtCore.Qt.ArrowType.NoArrow)

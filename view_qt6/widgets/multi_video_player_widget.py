@@ -3,7 +3,7 @@ __author__ = 'Vit'
 import os
 import sys
 
-from PyQt6.QtCore import QUrl
+from PyQt6.QtCore import Qt, QUrl
 from PyQt6.QtMultimedia import  QMediaPlayer, QAudioOutput #,QMediaContent
 from PyQt6.QtMultimediaWidgets import QVideoWidget
 from PyQt6.QtWidgets import QWidget, QMenu, QFrame
@@ -39,6 +39,9 @@ class BaseVideoWidget():
     def set_on_buffered_changed_handler(self, handler:lambda buf:None):
         self.on_buffered_changed = handler
 
+    def set_on_video_size_changed_handler(self, handler:lambda size:None):
+        self.on_video_size_changed = handler
+
 class QtVideoWidget(QVideoWidget, BaseVideoWidget):
     def __init__(self, QWidget_parent=None):
         super().__init__(QWidget_parent)
@@ -52,6 +55,9 @@ class QtVideoWidget(QVideoWidget, BaseVideoWidget):
 
         self.media_player.setVideoOutput(self)
 
+        if self.videoSink():
+            self.videoSink().videoSizeChanged.connect(self.video_size_changed)
+
         self.media_player.durationChanged.connect(self.durationChanged)
         self.media_player.positionChanged.connect(self.positionChanged)
         self.media_player.errorOccurred.connect(self.handleError)
@@ -62,6 +68,7 @@ class QtVideoWidget(QVideoWidget, BaseVideoWidget):
         # print('Playing:', url)
         self.url=url
         self.media_player.setSource(QUrl(url))
+        self.on_video_size_changed(None)
 
     def re_open(self, url:str):
         # print('Re-open',url)
@@ -123,6 +130,21 @@ class QtVideoWidget(QVideoWidget, BaseVideoWidget):
             if self.saved_position:
                 self.media_player.setPosition(self.saved_position)
                 self.saved_position = None
+
+
+    def video_size_changed(self):
+
+        size = self.videoSink().videoSize()
+
+        width = size.width()
+        height = size.height()
+
+        if width > 0 and height > 0:
+            video_size=f"{width}x{height}"
+            # print("Разрешение видео:"+self.video_size)
+        else:
+            video_size=None
+        self.on_video_size_changed(video_size)
 
     def handleError(self):
         print(self.media_player.error(), self.media_player.errorString())
@@ -279,6 +301,7 @@ class VideoPlayerWidget(QWidget):
         self.player.set_on_position_changed_handler(self.positionChanged)
         self.player.set_on_duration_changed_handler(self.durationChanged)
         self.player.set_on_buffered_changed_handler(self.buffer_progress_changed)
+        self.player.set_on_video_size_changed_handler(self.video_size_changed)
 
         self.ui.bn_play.clicked.connect(self.player.play)
         self.ui.bn_pause.clicked.connect(self.player.pause)
@@ -309,6 +332,13 @@ class VideoPlayerWidget(QWidget):
     def volume_changed(self,new_volume:int):
         # print('VideoPlayerWidget..volume_changed',new_volume)
         self.player.setVolume(new_volume)
+
+    def video_size_changed(self, size:str):
+        # print('..video_size_changed ',size)
+        if size:
+            self.ui.bn_quality.setText(size+'  ')
+        else:
+            self.ui.bn_quality.setText("HQ  ")
 
     def re_open(self, res:int):
         self.player.re_open(self.playlist.get_stream(res))

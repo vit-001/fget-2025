@@ -26,7 +26,7 @@ class PornoaktSite(BaseSiteParser):
 
         view.add_start_button(picture_filename='model/site/resource/pornoakt.png',
                               # menu_items=menu_items,
-                              url=URL("https://b.pornoakt.info/"))
+                              url=URL("https://a.pornoakt.club/"))
 
     def get_shrink_name(self):
         return 'PA'

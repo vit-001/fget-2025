@@ -15,10 +15,10 @@ def directory_count():
 
 if __name__ == "__main__":
     n=0
-    p=Path('C:\\Py2023\\fget3\\')
+    p=Path('C:\\PyWork\\fget-2025\\')  #C:\PyWork\fget-2025
     list_files=list(p.glob('**/*.py'))
     for item in list_files:
-        if '\\venv' in str(item):
+        if '\\venv' in str(item) or '\\.venv\\' in str(item):
             continue
         with open(str(item),encoding='utf8') as fd:
             print(item)

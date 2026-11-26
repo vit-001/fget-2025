@@ -7,8 +7,8 @@ if __name__ == '__main__':
     freeze_support()
 
     print('Todo:')
-    print('https://2023.pornvideobb.com/')
-    print('https://mobifcuk.com/')
+    # print('https://2023.pornvideobb.com/')
+    # print('https://mobifcuk.com/')
 
     #     # print('www.tgpdog.com', '  - VeroniccaComSite ')
     #     print('http://www.shameless.com/', 'verifyed, script')
@@ -26,7 +26,11 @@ if __name__ == '__main__':
     print("Let's go..")
     print('')
 
-    import sys, os
+    import os
+
+
+
+    import sys
     import logging
 
     print("Python version {}.{}.".format(sys.version_info.major, sys.version_info.minor))
@@ -94,7 +98,7 @@ if __name__ == '__main__':
                 print('Run in small window mode')
                 Setting.main_window_x0_in_percents = 25
                 Setting.main_window_h_in_percents = 45
-                Setting.full_window_h_in_percents = 45
+                Setting.ful_window_h_in_percents = 45
                 Setting.full_window_w_gap_in_percents = 2
 
             if item.startswith('-vlc'):
@@ -110,6 +114,32 @@ if __name__ == '__main__':
                 Setting.parce_links_file=True
                 from model.site.links_file_parcers import PornDudeParcer
                 Setting.parcer_for_links_file=PornDudeParcer(item.rpartition('=')[-1])
+
+            from PyQt6.QtCore import qInstallMessageHandler, QtMsgType
+            # from PyQt6.QtWidgets import QApplication
+
+            if Setting.suppress_external_debugging_output:
+
+                os.environ["QT_FFMPEG_DEBUG"] = "0" # Отключаем отладку FFmpeg
+
+                #фильтр для подавления сторонних отладочных сообщений
+                def message_filter(msg_type, context, message):
+                    # Список строк, которые нужно подавить
+                    suppressed_patterns = [
+                        "FFmpeg"
+                    ]
+
+                    # Проверяем, содержит ли сообщение что-то из списка подавления
+                    for pattern in suppressed_patterns:
+                        if pattern in message:
+                            return  # Игнорируем это сообщение
+
+
+                    # Для всех остальных сообщений используем стандартный обработчик с добавлением External debug:
+                    print('External debug: '+message, file=sys.stderr)
+
+                # Устанавливаем фильтр до создания QApplication
+                qInstallMessageHandler(message_filter)
 
 
         app = QApplication(sys.argv)

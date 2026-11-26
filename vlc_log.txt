@@ -348456,3 +348456,1524 @@ main error: module not functional
 main error: failed to create audio output
 main error: module not functional
 main error: failed to create audio output
+﻿-- logger module started --
+﻿-- logger module started --
+﻿-- logger module started --
+adaptive: Changing stream format Unknown -> TS
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+drawable warning: unsupported control query 3
+main error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 1000 ms)
+main warning: buffer too late (-999646 us): dropped
+main warning: buffer too late (-976426 us): dropped
+main warning: buffer too late (-953206 us): dropped
+main warning: buffer too late (-929986 us): dropped
+main warning: buffer too late (-906766 us): dropped
+main warning: buffer too late (-883546 us): dropped
+main warning: picture is too late to be displayed (missing 1089 ms)
+main warning: buffer too late (-860326 us): dropped
+﻿-- logger module started --
+adaptive: Changing stream format Unknown -> TS
+http error: local stream 1 error: Cancellation (0x8)
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 3 error: Cancellation (0x8)
+drawable warning: unsupported control query 3
+http error: local stream 5 error: Cancellation (0x8)
+http error: local stream 7 error: Cancellation (0x8)
+http error: local stream 9 error: Cancellation (0x8)
+http error: local stream 11 error: Cancellation (0x8)
+http error: local stream 13 error: Cancellation (0x8)
+http error: local stream 15 error: Cancellation (0x8)
+http error: local stream 17 error: Cancellation (0x8)
+http error: local stream 19 error: Cancellation (0x8)
+http error: local stream 21 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 17867667: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 23 error: Cancellation (0x8)
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 25 error: Cancellation (0x8)
+http error: local stream 27 error: Cancellation (0x8)
+http error: local stream 29 error: Cancellation (0x8)
+http error: local stream 31 error: Cancellation (0x8)
+http error: local stream 33 error: Cancellation (0x8)
+http error: local stream 35 error: Cancellation (0x8)
+http error: local stream 37 error: Cancellation (0x8)
+http error: local stream 39 error: Cancellation (0x8)
+http error: local stream 41 error: Cancellation (0x8)
+http error: local stream 43 error: Cancellation (0x8)
+http error: local stream 45 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 65834334: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 47 error: Cancellation (0x8)
+http error: local stream 47 error: Stream closed (0x5)
+http error: local stream 47 error: Stream closed (0x5)
+http error: local stream 47 error: Stream closed (0x5)
+http error: local stream 47 error: Stream closed (0x5)
+http error: local stream 47 error: Stream closed (0x5)
+http error: local stream 47 error: Stream closed (0x5)
+http error: local stream 47 error: Stream closed (0x5)
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 49 error: Cancellation (0x8)
+http error: local stream 51 error: Cancellation (0x8)
+http error: local stream 53 error: Cancellation (0x8)
+http error: local stream 55 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 96934334: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+http error: local stream 57 error: Cancellation (0x8)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 59 error: Cancellation (0x8)
+http error: local stream 61 error: Cancellation (0x8)
+http error: local stream 63 error: Cancellation (0x8)
+http error: local stream 65 error: Cancellation (0x8)
+http error: local stream 67 error: Cancellation (0x8)
+http error: local stream 69 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 136334334: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 71 error: Cancellation (0x8)
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 73 error: Cancellation (0x8)
+http error: local stream 75 error: Cancellation (0x8)
+http error: local stream 77 error: Cancellation (0x8)
+http error: local stream 79 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 320201001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 81 error: Cancellation (0x8)
+http error: local stream 83 error: Cancellation (0x8)
+http error: local stream 85 error: Cancellation (0x8)
+http error: local stream 87 error: Cancellation (0x8)
+http error: local stream 89 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 503901001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 91 error: Cancellation (0x8)
+http error: local stream 93 error: Cancellation (0x8)
+http error: local stream 93 error: Stream closed (0x5)
+http error: local stream 95 error: Cancellation (0x8)
+http error: local stream 97 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 685734334: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+http error: local stream 99 error: Cancellation (0x8)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 101 error: Cancellation (0x8)
+http error: local stream 103 error: Cancellation (0x8)
+http error: local stream 105 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 866867667: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+http error: local stream 107 error: Cancellation (0x8)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 109 error: Cancellation (0x8)
+http error: local stream 111 error: Cancellation (0x8)
+http error: local stream 113 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 1047834334: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 115 error: Cancellation (0x8)
+http error: local stream 117 error: Cancellation (0x8)
+http error: local stream 119 error: Cancellation (0x8)
+http error: local stream 121 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 1079467667: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+d3d11va warning: not enough decoding slices in the texture (6/24)
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 123 error: Cancellation (0x8)
+http error: local stream 125 error: Cancellation (0x8)
+http error: local stream 127 error: Cancellation (0x8)
+http error: local stream 129 error: Cancellation (0x8)
+http error: local stream 131 error: Cancellation (0x8)
+http error: local stream 133 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 1114534334: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 135 error: Cancellation (0x8)
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 137 error: Cancellation (0x8)
+http error: local stream 139 error: Cancellation (0x8)
+direct3d11 error: SetThumbNailClip failed: 0x800706f4
+adaptive: Changing stream format Unknown -> TS
+http error: local stream 1 error: Cancellation (0x8)
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 3 error: Cancellation (0x8)
+drawable warning: unsupported control query 3
+http error: local stream 5 error: Cancellation (0x8)
+http error: local stream 7 error: Cancellation (0x8)
+http error: local stream 9 error: Cancellation (0x8)
+http error: local stream 11 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 6801001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 13 error: Cancellation (0x8)
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 15 error: Cancellation (0x8)
+http error: local stream 15 error: Stream closed (0x5)
+http error: local stream 17 error: Cancellation (0x8)
+http error: local stream 19 error: Cancellation (0x8)
+http error: local stream 21 error: Cancellation (0x8)
+http error: local stream 23 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 39834334: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 25 error: Cancellation (0x8)
+http error: local stream 27 error: Cancellation (0x8)
+http error: local stream 29 error: Cancellation (0x8)
+http error: local stream 31 error: Cancellation (0x8)
+http error: local stream 33 error: Cancellation (0x8)
+http error: local stream 35 error: Cancellation (0x8)
+http error: local stream 37 error: Cancellation (0x8)
+http error: local stream 39 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 81067667: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 41 error: Cancellation (0x8)
+http error: local stream 43 error: Cancellation (0x8)
+http error: local stream 45 error: Cancellation (0x8)
+http error: local stream 47 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 112767667: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 49 error: Cancellation (0x8)
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+main warning: picture is too late to be displayed (missing 17 ms)
+http error: local stream 51 error: Cancellation (0x8)
+http error: local stream 53 error: Cancellation (0x8)
+http error: local stream 55 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 144567667: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 57 error: Cancellation (0x8)
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 59 error: Cancellation (0x8)
+http error: local stream 61 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 174667667: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 63 error: Cancellation (0x8)
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 65 error: Cancellation (0x8)
+http error: local stream 67 error: Cancellation (0x8)
+http error: local stream 69 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 205034334: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 71 error: Cancellation (0x8)
+http error: local stream 73 error: Cancellation (0x8)
+http error: local stream 73 error: Stream closed (0x5)
+http error: local stream 75 error: Cancellation (0x8)
+http error: local stream 77 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 233534334: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 79 error: Cancellation (0x8)
+http error: local stream 81 error: Cancellation (0x8)
+http error: local stream 83 error: Cancellation (0x8)
+http error: local stream 85 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 264634334: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 87 error: Cancellation (0x8)
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 89 error: Cancellation (0x8)
+http error: local stream 91 error: Cancellation (0x8)
+http error: local stream 93 error: Cancellation (0x8)
+http error: local stream 95 error: Cancellation (0x8)
+http error: local stream 97 error: Cancellation (0x8)
+http error: local stream 99 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 302567667: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 101 error: Cancellation (0x8)
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 103 error: Cancellation (0x8)
+http error: local stream 105 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 333267667: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 107 error: Cancellation (0x8)
+http error: local stream 109 error: Cancellation (0x8)
+http error: local stream 111 error: Cancellation (0x8)
+http error: local stream 113 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 364667667: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 115 error: Cancellation (0x8)
+http error: local stream 117 error: Cancellation (0x8)
+http error: local stream 117 error: Stream closed (0x5)
+http error: local stream 119 error: Cancellation (0x8)
+http error: local stream 121 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 395301001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 123 error: Cancellation (0x8)
+http error: local stream 125 error: Cancellation (0x8)
+http error: local stream 127 error: Cancellation (0x8)
+http error: local stream 129 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 575734334: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 131 error: Cancellation (0x8)
+http error: local stream 133 error: Cancellation (0x8)
+http error: local stream 135 error: Cancellation (0x8)
+http error: local stream 137 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 756534334: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 139 error: Cancellation (0x8)
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 141 error: Cancellation (0x8)
+http error: local stream 143 error: Cancellation (0x8)
+http error: local stream 145 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 936734334: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 147 error: Cancellation (0x8)
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 149 error: Cancellation (0x8)
+http error: local stream 151 error: Cancellation (0x8)
+http error: local stream 153 error: Cancellation (0x8)
+http error: local stream 155 error: Cancellation (0x8)
+http error: local stream 157 error: Cancellation (0x8)
+http error: local stream 159 error: Cancellation (0x8)
+direct3d11 error: SetThumbNailClip failed: 0x800706f4
+﻿-- logger module started --
+adaptive: Changing stream format Unknown -> TS
+mpeg4audio: AAC channels: 2 samplerate: 44100
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 3 error: Cancellation (0x8)
+drawable warning: unsupported control query 3
+http error: local stream 5 error: Cancellation (0x8)
+http error: local stream 7 error: Cancellation (0x8)
+http error: local stream 11 error: Cancellation (0x8)
+http error: local stream 13 error: Cancellation (0x8)
+http error: local stream 15 error: Cancellation (0x8)
+direct3d11 error: SetThumbNailClip failed: 0x800706f4
+adaptive: Changing stream format Unknown -> TS
+http error: local stream 1 error: Cancellation (0x8)
+mpeg4audio: AAC channels: 2 samplerate: 48000
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 3 error: Cancellation (0x8)
+drawable warning: unsupported control query 3
+http error: local stream 5 error: Cancellation (0x8)
+http error: local stream 7 error: Cancellation (0x8)
+http error: local stream 9 error: Cancellation (0x8)
+http error: local stream 11 error: Cancellation (0x8)
+http error: local stream 13 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 10067667: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 15 error: Cancellation (0x8)
+mpeg4audio: AAC channels: 2 samplerate: 48000
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 17 error: Cancellation (0x8)
+http error: local stream 19 error: Cancellation (0x8)
+http error: local stream 21 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 42767667: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+mpeg4audio: AAC channels: 2 samplerate: 48000
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 23 error: Cancellation (0x8)
+http error: local stream 25 error: Cancellation (0x8)
+http error: local stream 25 error: Stream closed (0x5)
+http error: local stream 27 error: Cancellation (0x8)
+http error: local stream 29 error: Cancellation (0x8)
+http error: local stream 31 error: Cancellation (0x8)
+http error: local stream 33 error: Cancellation (0x8)
+http error: local stream 35 error: Cancellation (0x8)
+http error: local stream 37 error: Cancellation (0x8)
+http error: local stream 39 error: Cancellation (0x8)
+http error: local stream 41 error: Cancellation (0x8)
+http error: local stream 43 error: Cancellation (0x8)
+http error: local stream 45 error: Cancellation (0x8)
+http error: local stream 47 error: Cancellation (0x8)
+http error: local stream 49 error: Cancellation (0x8)
+http error: local stream 51 error: Cancellation (0x8)
+http error: local stream 53 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 251401001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 55 error: Cancellation (0x8)
+mpeg4audio: AAC channels: 2 samplerate: 48000
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 57 error: Cancellation (0x8)
+http error: local stream 59 error: Cancellation (0x8)
+http error: local stream 61 error: Cancellation (0x8)
+http error: local stream 63 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 283634334: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+mpeg4audio: AAC channels: 2 samplerate: 48000
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 65 error: Cancellation (0x8)
+http error: local stream 67 error: Cancellation (0x8)
+http error: local stream 69 error: Cancellation (0x8)
+http error: local stream 71 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 465367667: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+mpeg4audio: AAC channels: 2 samplerate: 48000
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 73 error: Cancellation (0x8)
+http error: local stream 75 error: Cancellation (0x8)
+http error: local stream 77 error: Cancellation (0x8)
+http error: local stream 79 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 647501001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 81 error: Cancellation (0x8)
+mpeg4audio: AAC channels: 2 samplerate: 48000
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 83 error: Cancellation (0x8)
+http error: local stream 83 error: Stream closed (0x5)
+http error: local stream 85 error: Cancellation (0x8)
+http error: local stream 87 error: Cancellation (0x8)
+http error: local stream 89 error: Cancellation (0x8)
+http error: local stream 91 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 833301001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 93 error: Cancellation (0x8)
+mpeg4audio: AAC channels: 2 samplerate: 48000
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 95 error: Cancellation (0x8)
+http error: local stream 97 error: Cancellation (0x8)
+http error: local stream 99 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 865434334: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 101 error: Cancellation (0x8)
+mpeg4audio: AAC channels: 2 samplerate: 48000
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 103 error: Cancellation (0x8)
+http error: local stream 105 error: Cancellation (0x8)
+http error: local stream 107 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 897001001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 109 error: Cancellation (0x8)
+mpeg4audio: AAC channels: 2 samplerate: 48000
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 111 error: Cancellation (0x8)
+http error: local stream 113 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 1078667667: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+mpeg4audio: AAC channels: 2 samplerate: 48000
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 115 error: Cancellation (0x8)
+http error: local stream 117 error: Cancellation (0x8)
+http error: local stream 119 error: Cancellation (0x8)
+http error: local stream 121 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 1108634334: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 123 error: Cancellation (0x8)
+mpeg4audio: AAC channels: 2 samplerate: 48000
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 125 error: Cancellation (0x8)
+http error: local stream 127 error: Cancellation (0x8)
+http error: local stream 129 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 1140767667: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+mpeg4audio: AAC channels: 2 samplerate: 48000
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 131 error: Cancellation (0x8)
+http error: local stream 133 error: Cancellation (0x8)
+http error: local stream 135 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 1171701001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+mpeg4audio: AAC channels: 2 samplerate: 48000
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 137 error: Cancellation (0x8)
+http error: local stream 139 error: Cancellation (0x8)
+http error: local stream 139 error: Stream closed (0x5)
+http error: local stream 141 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 1202434334: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 143 error: Cancellation (0x8)
+mpeg4audio: AAC channels: 2 samplerate: 48000
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 145 error: Cancellation (0x8)
+http error: local stream 147 error: Cancellation (0x8)
+http error: local stream 149 error: Cancellation (0x8)
+http error: local stream 151 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 1384234334: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+mpeg4audio: AAC channels: 2 samplerate: 48000
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 153 error: Cancellation (0x8)
+http error: local stream 155 error: Cancellation (0x8)
+http error: local stream 157 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 1414601001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 159 error: Cancellation (0x8)
+mpeg4audio: AAC channels: 2 samplerate: 48000
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 161 error: Cancellation (0x8)
+http error: local stream 163 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 1444634334: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 165 error: Cancellation (0x8)
+mpeg4audio: AAC channels: 2 samplerate: 48000
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 167 error: Cancellation (0x8)
+http error: local stream 167 error: Stream closed (0x5)
+http error: local stream 169 error: Cancellation (0x8)
+http error: local stream 171 error: Cancellation (0x8)
+http error: local stream 173 error: Cancellation (0x8)
+http error: local stream 175 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 1478134334: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+mpeg4audio: AAC channels: 2 samplerate: 48000
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 177 error: Cancellation (0x8)
+http error: local stream 179 error: Cancellation (0x8)
+http error: local stream 181 error: Cancellation (0x8)
+http error: local stream 183 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 1509434334: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+mpeg4audio: AAC channels: 2 samplerate: 48000
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 185 error: Cancellation (0x8)
+http error: local stream 187 error: Cancellation (0x8)
+http error: local stream 189 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 1689567667: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 191 error: Cancellation (0x8)
+mpeg4audio: AAC channels: 2 samplerate: 48000
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 193 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 1720401001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 195 error: Cancellation (0x8)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+http error: local stream 195 error: Stream closed (0x5)
+mpeg4audio: AAC channels: 2 samplerate: 48000
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 197 error: Cancellation (0x8)
+http error: local stream 199 error: Cancellation (0x8)
+http error: local stream 201 error: Cancellation (0x8)
+http error: local stream 203 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 1751867667: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 205 error: Cancellation (0x8)
+mpeg4audio: AAC channels: 2 samplerate: 48000
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 207 error: Cancellation (0x8)
+http error: local stream 209 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 1782101001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+mpeg4audio: AAC channels: 2 samplerate: 48000
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 211 error: Cancellation (0x8)
+http error: local stream 213 error: Cancellation (0x8)
+http error: local stream 215 error: Cancellation (0x8)
+http error: local stream 217 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 1812034334: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+mpeg4audio: AAC channels: 2 samplerate: 48000
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 219 error: Cancellation (0x8)
+http error: local stream 221 error: Cancellation (0x8)
+http error: local stream 223 error: Cancellation (0x8)
+http error: local stream 225 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 1837267667: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+mpeg4audio: AAC channels: 2 samplerate: 48000
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 227 error: Cancellation (0x8)
+http error: local stream 229 error: Cancellation (0x8)
+http error: local stream 231 error: Cancellation (0x8)
+http error: local stream 233 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 1861701001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 235 error: Cancellation (0x8)
+mpeg4audio: AAC channels: 2 samplerate: 48000
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+http error: local stream 237 error: Cancellation (0x8)
+http error: local stream 239 er﻿-- logger module started --
+gnutls error: TLS handshake error: Error in the push function.
+main error: TLS session handshake error
+main error: connection error: Connection refused by peer
+access error: HTTP connection failure
+main error: Этот источник не открывается
+main error: VLC не может открыть MRL 'https://www.whoreshub.com/get_file/14/ce29a98922aed9ae4d3ce8eede3bc151/536000/536211/536211_720p.mp4/?v-acctoken=MjU0OHw2OTU5NTN8MHxkZTViZGM0YjViZGY2NjIyMzBmYmY2YzFkOWRiYjcxNA41f7f4fa39319638'. Ищите более подробную информацию в лог-файле.
+gnutls error: TLS handshake error: Error in the push function.
+main error: TLS session handshake error
+main error: connection error: Connection refused by peer
+access error: HTTP connection failure
+main error: Этот источник не открывается
+main error: VLC не может открыть MRL 'https://www.whoreshub.com/get_file/14/c49c3edc42282c2d71aa33b95721e16a/536000/536210/536210_720p.mp4/?v-acctoken=MTYyN3wyNjAzfDB8NmZmODg3NWUzZTM3YzNjZGQ1ZGYwNDc1MGJkZThmZTcffb1bbba8622d9c8'. Ищите более подробную информацию в лог-файле.
+gnutls error: TLS handshake error: Error in the push function.
+main error: TLS session handshake error
+main error: connection error: Connection refused by peer
+access error: HTTP connection failure
+main error: Этот источник не открывается
+main error: VLC не может открыть MRL 'https://www.whoreshub.com/get_file/14/74ca328826054e9de4ce3ca89e64d858/536000/536210/536210_1080p.mp4/?v-acctoken=MzExOHwyNjAzfDB8YzdlZDRkZTVjNWRhYWMxOTA2YzVkZGUwMzJhNWVkMGU0d7da20451e0610b'. Ищите более подробную информацию в лог-файле.
+http error: local stream 1 error: Cancellation (0x8)
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+mp4 warning: CTTS table of 74153 entries
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+drawable warning: unsupported control query 3
+http error: local stream 5 error: Cancellation (0x8)
+direct3d11 error: SetThumbNailClip failed: 0x800706f4
+http error: local stream 1 error: Cancellation (0x8)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+mp4 warning: CTTS table of 29417 entries
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+drawable warning: unsupported control query 3
+main warning: picture is too late to be displayed (missing 91 ms)
+main warning: picture is too late to be displayed (missing 41 ms)
+main warning: picture is too late to be displayed (missing 41 ms)
+main warning: picture is too late to be displayed (missing 40 ms)
+main warning: picture is too late to be displayed (missing 91 ms)
+main warning: picture is too late to be displayed (missing 41 ms)
+main warning: picture is too late to be displayed (missing 91 ms)
+main warning: picture is too late to be displayed (missing 42 ms)
+main warning: picture is too late to be displayed (missing 41 ms)
+main warning: picture is too late to be displayed (missing 41 ms)
+http error: local stream 5 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 465450001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 7 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 91 ms)
+main warning: picture is too late to be displayed (missing 42 ms)
+http error: local stream 9 error: Cancellation (0x8)
+direct3d11 error: SetThumbNailClip failed: 0x800706f4
+http error: local stream 1 error: Cancellation (0x8)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+mp4 warning: elst box found
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+mp4 warning: STTS table of 1 entries
+mp4 warning: CTTS table of 10315 entries
+mp4 warning: elst box found
+http error: local stream 1 error: Stream closed (0x5)
+mp4 warning: STTS table of 1 entries
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+drawable warning: unsupported control query 3
+main warning: picture is too late to be displayed (missing 90 ms)
+main warning: picture is too late to be displayed (missing 41 ms)
+main warning: picture is too late to be displayed (missing 92 ms)
+main warning: picture is too late to be displayed (missing 42 ms)
+main warning: picture is too late to be displayed (missing 41 ms)
+main warning: picture is too late to be displayed (missing 91 ms)
+main warning: picture is too late to be displayed (missing 42 ms)
+main warning: picture is too late to be displayed (missing 41 ms)
+main warning: picture is too late to be displayed (missing 92 ms)
+main warning: picture is too late to be displayed (missing 42 ms)
+main warning: picture is too late to be displayed (missing 40 ms)
+http error: local stream 5 error: Cancellation (0x8)
+direct3d11 error: SetThumbNailClip failed: 0x800706f4
+http error: local stream 1 error: Cancellation (0x8)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+mp4 warning: elst box found
+http error: local stream 1 error: Stream closed (0x5)
+mp4 warning: STTS table of 1 entries
+mp4 warning: CTTS table of 7145 entries
+http error: local stream 1 error: Stream closed (0x5)
+mp4 warning: elst box found
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+mp4 warning: STTS table of 1 entries
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)
+http error: local stream 1 error: Stream closed (0x5)﻿-- logger module started --
+gnutls error: TLS handshake error: Error in the push function.
+main error: TLS session handshake error
+main error: connection error: Connection refused by peer
+access error: HTTP connection failure
+main error: Этот источник не открывается
+main error: VLC не может открыть MRL 'https://www.whoreshub.com/get_file/14/ce29a98922aed9ae4d3ce8eede3bc151/536000/536211/536211_720p.mp4/?v-acctoken=MjU0OHw2OTU5NTN8MHxkZTViZGM0YjViZGY2NjIyMzBmYmY2YzFkOWRiYjcxNA41f7f4fa39319638'. Ищите более подробную информацию в лог-файле.
+﻿-- logger module started --
+gnutls error: TLS handshake error: Error in the push function.
+main error: TLS session handshake error
+main error: connection error: Connection refused by peer
+access error: HTTP connection failure
+main error: Этот источник не открывается
+main error: VLC не может открыть MRL 'https://ru.anysex.com/get_file/1/4f86f22d99ad6c27be41a14bcaf91228b42004e8a6/484000/484255/484255_720.mp4/?br=920'. Ищите более подробную информацию в лог-файле.
+gnutls error: TLS handshake error: Error in the push function.
+main error: TLS session handshake error
+main error: connection error: Connection refused by peer
+access error: HTTP connection failure
+main error: Этот источник не открывается
+main error: VLC не может открыть MRL 'https://www.analdin.xxx/get_file/17/dbaf543fcea814f15028b639cc71ee0e/797000/797620/797620hd.mp4/'. Ищите более подробную информацию в лог-файле.
+gnutls error: TLS handshake error: Error in the push function.
+main error: TLS session handshake error
+main error: connection error: Connection refused by peer
+access error: HTTP connection failure
+main error: Этот источник не открывается
+main error: VLC не может открыть MRL 'https://www.analdin.xxx/get_file/20/390f9b9042e8031f265167901b7dc648/796000/796996/796996hd.mp4/'. Ищите более подробную информацию в лог-файле.
+gnutls error: TLS handshake error: Error in the push function.
+main error: TLS session handshake error
+main error: connection error: Connection refused by peer
+access error: HTTP connection failure
+main error: Этот источник не открывается
+main error: VLC не может открыть MRL 'https://vid-s23-n50-nl-cdn.eporner.com/v6/cd8-R1M8vVjz8rALVKsb9A/1766062673_79.142.75.89_1294/15085275-720p.mp4'. Ищите более подробную информацию в лог-файле.
+gnutls error: TLS handshake error: Error in the push function.
+main error: TLS session handshake error
+main error: connection error: Connection refused by peer
+access error: HTTP connection failure
+main error: Этот источник не открывается
+main error: VLC не может открыть MRL 'https://vid-s10-n50-de-cdn.eporner.com/v4/aRvG7k1Q2uHnEODyS15fnw/1766062684_79.142.75.89_1222/15357579-720p-av1.mp4'. Ищите более подробную информацию в лог-файле.
+gnutls error: TLS handshake error: Error in the push function.
+main error: TLS session handshake error
+main error: connection error: Connection refused by peer
+access error: HTTP connection failure
+main error: Этот источник не открывается
+main error: VLC не может открыть MRL 'https://www.xozilla.xxx/get_file/15/5d7d3bfd359e61a12628f13ac0830997/786000/786545/786545hd.mp4/'. Ищите более подробную информацию в лог-файле.
+gnutls error: TLS handshake error: Error in the push function.
+main error: TLS session handshake error
+main error: connection error: Connection refused by peer
+access error: HTTP connection failure
+main error: Этот источник не открывается
+main error: VLC не может открыть MRL 'https://rt.xgroovy.com/get_file/1/4d243efc83c5f7159e4910815f274d24d0145a8de3/643000/643792/643792_720p.mp4/?br=1009'. Ищите более подробную информацию в лог-файле.
+﻿-- logger module started --
+gnutls error: Error in the pull function.
+http error: peer stream 1 error: Cancellation (0x8)
+gnutls error: The specified session has been invalidated for some reason.
+http error: local stream 3 error: Cancellation (0x8)
+main error: connection error: Interrupted function call
+mp4 warning: mp4: wanted 32284 bytes, got 7176
+mp4 warning: Failed reading box stsz
+mp4 warning: elst box found
+mp4 error: cannot create chunks index
+gnutls error: The specified session has been invalidated for some reason.
+﻿-- logger module started --
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+mp4 warning: CTTS table of 16527 entries
+mp4 warning: elst box found
+mp4 warning: STTS table of 3820 entries
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+drawable warning: unsupported control query 3
+main warning: picture is too late to be displayed (missing 74 ms)
+main warning: picture is too late to be displayed (missing 41 ms)
+main warning: picture is too late to be displayed (missing 41 ms)
+﻿-- logger module started --
+gnutls error: TLS handshake error: Error in the pull function.
+main error: TLS session handshake error
+main error: connection error: Resource temporarily unavailable
+access error: HTTP connection failure
+main error: Этот источник не открывается
+main error: VLC не может открыть MRL 'https://s1103.pornone.com/vid2/SJ1dSV67guyZ2ckv93oLyQ/1766932358/51/280224151/280224151_720x406_500k.mp4?lang=en'. Ищите более подробную информацию в лог-файле.
+main error: cannot resolve u101.vporn.com port 443: 
+access error: HTTP connection failure
+main error: Этот источник не открывается
+main error: VLC не может открыть MRL 'https://u101.vporn.com/vid2/xXHBzkZLPtuUFzCL6zIydg/1766932374/67/280224167/280224167_1920x1080_4000k.mp4?lang=en'. Ищите более подробную информацию в лог-файле.
+﻿-- logger module started --
+access error: HTTP 404 error
+http error: local stream 1 error: Cancellation (0x8)
+main error: Этот источник не открывается
+main error: VLC не может открыть MRL 'https://cdn.sheshaft.com/4952000/4952684/4952684_preview.mp4'. Ищите более подробную информацию в лог-файле.
+access error: HTTP 404 error
+http error: local stream 1 error: Cancellation (0x8)
+main error: Этот источник не открывается
+main error: VLC не может открыть MRL 'https://cdn.sheshaft.com/4957000/4957846/4957846_preview.mp4'. Ищите более подробную информацию в лог-файле.
+http error: local stream 1 error: Cancellation (0x8)
+access error: HTTP 523 error
+http error: local stream 1 error: Cancellation (0x8)
+http error: local stream 1 error: Stream closed (0x5)
+main error: Этот источник не открывается
+main error: VLC не может открыть MRL 'https://my-sex-porno.com/get_file/8/0263f3871431e99c270f57db66cce868/16000/16697/16697_720.mp4/?br=1102'. Ищите более подробную информацию в лог-файле.
+http error: local stream 1 error: Cancellation (0x8)
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+mp4 warning: CTTS table of 8268 entries
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+http error: local stream 1 error: Cancellation (0x8)
+http error: local stream 3 error: Cancellation (0x8)
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+drawable warning: unsupported control query 3
+main error: Timestamp conversion failed for 3840001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 5 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 51 ms)
+http error: local stream 7 error: Cancellation (0x8)
+http error: local stream 9 error: Cancellation (0x8)
+direct3d11 error: SetThumbNailClip failed: 0x800706f4
+http error: local stream 1 error: Cancellation (0x8)
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+mp4 warning: CTTS table of 15731 entries
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+drawable warning: unsupported control query 3
+http error: local stream 1 error: Cancellation (0x8)
+http error: local stream 3 error: Cancellation (0x8)
+http error: local stream 3 error: Stream closed (0x5)
+http error: local stream 3 error: Stream closed (0x5)
+direct3d11 error: SetThumbNailClip failed: 0x800706f4
+http error: local stream 1 error: Cancellation (0x8)
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+mp4 warning: CTTS table of 5919 entries
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+drawable warning: unsupported control query 3
+http error: local stream 1 error: Cancellation (0x8)
+http error: local stream 3 error: Cancellation (0x8)
+direct3d11 error: SetThumbNailClip failed: 0x800706f4
+http error: local stream 1 error: Cancellation (0x8)
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+mp4 warning: CTTS table of 6594 entries
+mp4 warning: elst box found
+mp4 warning: STTS table of 2 entries
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+drawable warning: unsupported control query 3
+main error: Timestamp conversion failed for 10720001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 1 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 50 ms)
+main error: Timestamp conversion failed for 41400001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 3 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 71600001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 5 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 71 ms)
+main warning: picture is too late to be displayed (missing 41 ms)
+main error: Timestamp conversion failed for 102680001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 7 error: Cancellation (0x8)
+http error: local stream 9 error: Cancellation (0x8)
+http error: local stream 11 error: Cancellation (0x8)
+direct3d11 error: SetThumbNailClip failed: 0x800706f4
+http error: local stream 1 error: Cancellation (0x8)
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+mp4 warning: CTTS table of 8789 entries
+mp4 warning: elst box found
+mp4 warning: STTS table of 2 entries
+http error: local stream 1 error: Cancellation (0x8)
+http error: local stream 3 error: Cancellation (0x8)
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+drawable warning: unsupported control query 3
+main error: Timestamp conversion failed for 1640001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 5 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 32000001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 7 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 21 ms)
+main error: Timestamp conversion failed for 62200001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 9 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 30 ms)
+main error: Timestamp conversion failed for 92680001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 11 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 51 ms)
+http error: local stream 13 error: Cancellation (0x8)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 13 error: Stream closed (0x5)
+http error: local stream 15 error: Cancellation (0x8)
+direct3d11 error: SetThumbNailClip failed: 0x800706f4
+http error: local stream 1 error: Cancellation (0x8)
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+mp4 warning: CTTS table of 10390 entries
+mp4 warning: elst box found
+mp4 warning: STTS table of 2 entries
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+drawable warning: unsupported control query 3
+main error: Timestamp conversion failed for 9760001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 1 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 80 ms)
+main warning: picture is too late to be displayed (missing 41 ms)
+main error: Timestamp conversion failed for 40520001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 3 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 41 ms)
+main error: Timestamp conversion failed for 71000001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 5 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 60 ms)
+main warning: picture is too late to be displayed (missing 21 ms)
+main error: Timestamp conversion failed for 101520001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 7 error: Cancellation (0x8)
+main error: Timestamp conversion failed for 131640001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 9 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 101 ms)
+main warning: picture is too late to be displayed (missing 63 ms)
+main warning: picture is too late to be displayed (missing 23 ms)
+http error: local stream 11 error: Cancellation (0x8)
+http error: local stream 13 error: Cancellation (0x8)
+direct3d11 error: SetThumbNailClip failed: 0x800706f4
+http error: local stream 1 error: Cancellation (0x8)
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+mp4 warning: CTTS table of 9293 entries
+mp4 warning: elst box found
+mp4 warning: STTS table of 13 entries
+http error: local stream 1 error: Cancellation (0x8)
+http error: local stream 3 error: Cancellation (0x8)
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+drawable warning: unsupported control query 3
+http error: local stream 5 error: Cancellation (0x8)
+http error: local stream 7 error: Cancellation (0x8)
+direct3d11 error: SetThumbNailClip failed: 0x800706f4
+http error: local stream 1 error: Cancellation (0x8)
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+mp4 warning: CTTS table of 63621 entries
+mp4 warning: elst box found
+mp4 warning: STTS table of 246 entries
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+main warning: picture is too late to be displayed (missing 23 ms)
+drawable warning: unsupported control query 3
+main warning: picture is too late to be displayed (missing 52 ms)
+main warning: picture is too late to be displayed (missing 32 ms)
+main warning: picture is too late to be displayed (missing 74 ms)
+main warning: picture is too late to be displayed (missing 51 ms)
+main warning: picture is too late to be displayed (missing 29 ms)
+main warning: picture is too late to be displayed (missing 35 ms)
+main warning: picture is too late to be displayed (missing 13 ms)
+main warning: picture is too late to be displayed (missing 25 ms)
+main warning: picture is too late to be displayed (missing 52 ms)
+main warning: picture is too late to be displayed (missing 30 ms)
+main warning: picture is too late to be displayed (missing 41 ms)
+main warning: picture is too late to be displayed (missing 19 ms)
+main warning: picture is too late to be displayed (missing 69 ms)
+main warning: picture is too late to be displayed (missing 46 ms)
+main warning: picture is too late to be displayed (missing 24 ms)
+main warning: picture is too late to be displayed (missing 13 ms)
+main error: Timestamp conversion failed for 245333334: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 5 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 35 ms)
+main warning: picture is too late to be displayed (missing 25 ms)
+main error: Timestamp conversion failed for 276355556: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 7 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 13 ms)
+main error: Timestamp conversion failed for 457311112: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 9 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 52 ms)
+main warning: picture is too late to be displayed (missing 30 ms)
+main error: Timestamp conversion failed for 638066667: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 11 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 56 ms)
+main warning: picture is too late to be displayed (missing 35 ms)
+main warning: picture is too late to be displayed (missing 13 ms)
+main error: Timestamp conversion failed for 819888889: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 13 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 41 ms)
+main warning: picture is too late to be displayed (missing 19 ms)
+main error: Timestamp conversion failed for 1000488889: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 15 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 62 ms)
+main warning: picture is too late to be displayed (missing 54 ms)
+main warning: picture is too late to be displayed (missing 31 ms)
+main error: Timestamp conversion failed for 1181022223: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 17 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 47 ms)
+main warning: picture is too late to be displayed (missing 27 ms)
+direct3d11 error: SetThumbNailClip failed: 0x800706f4
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+mp4 warning: CTTS table of 17507 entries
+mp4 warning: elst box found
+mp4 warning: STTS table of 2 entries
+http error: local stream 1 error: Cancellation (0x8)
+http error: local stream 3 error: Cancellation (0x8)
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+drawable warning: unsupported control query 3
+main error: Timestamp conversion failed for 11800001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 5 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 50 ms)
+main error: Timestamp conversion failed for 42480001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 7 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 83 ms)
+main warning: picture is too late to be displayed (missing 45 ms)
+main error: Timestamp conversion failed for 74400001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 9 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 21 ms)
+main error: Timestamp conversion failed for 255360001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 11 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 31 ms)
+main error: Timestamp conversion failed for 437400001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 13 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 31 ms)
+main error: Timestamp conversion failed for 619160001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 15 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 20 ms)
+direct3d11 error: SetThumbNailClip failed: 0x800706f4
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+mp4 warning: CTTS table of 18843 entries
+mp4 warning: elst box found
+mp4 warning: STTS table of 2 entries
+http error: local stream 1 error: Cancellation (0x8)
+http error: local stream 3 error: Cancellation (0x8)
+faad warning: decoded zero sample
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+drawable warning: unsupported control query 3
+main error: Timestamp conversion failed for 5240001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 5 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 30 ms)
+main error: Timestamp conversion failed for 35880001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 7 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 101 ms)
+main warning: picture is too late to be displayed (missing 61 ms)
+main warning: picture is too late to be displayed (missing 21 ms)
+main error: Timestamp conversion failed for 66320001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 9 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 51 ms)
+main error: Timestamp conversion failed for 96480001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 11 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 81 ms)
+main warning: picture is too late to be displayed (missing 42 ms)
+main error: Timestamp conversion failed for 127120001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 13 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 61 ms)
+main warning: picture is too late to be displayed (missing 23 ms)
+main error: Timestamp conversion failed for 158680001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 15 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 50 ms)
+main error: Timestamp conversion failed for 189120001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 17 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 101 ms)
+main warning: picture is too late to be displayed (missing 62 ms)
+main warning: picture is too late to be displayed (missing 22 ms)
+main error: Timestamp conversion failed for 219520001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 19 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 101 ms)
+main warning: picture is too late to be displayed (missing 63 ms)
+main warning: picture is too late to be displayed (missing 23 ms)
+main error: Timestamp conversion failed for 249920001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 21 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 101 ms)
+main warning: picture is too late to be displayed (missing 63 ms)
+main warning: picture is too late to be displayed (missing 23 ms)
+main error: Timestamp conversion failed for 280600001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 23 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 91 ms)
+main warning: picture is too late to be displayed (missing 54 ms)
+main error: Timestamp conversion failed for 311400001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 25 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 20 ms)
+main error: Timestamp conversion failed for 341880001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 27 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 61 ms)
+main warning: picture is too late to be displayed (missing 28 ms)
+main error: Timestamp conversion failed for 372520001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+http error: local stream 29 error: Cancellation (0x8)
+main warning: picture is too late to be displayed (missing 91 ms)
+main warning: picture is too late to be displayed (missing 51 ms)
+http error: local stream 31 error: Cancellation (0x8)
+http error: local stream 33 error: Cancellation (0x8)
+direct3d11 error: SetThumbNailClip failed: 0x800706f4
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+mp4 warning: CTTS table of 20133 entries
+mp4 warning: elst box found
+mp4 warning: STTS table of 2 entries
+faad warning: decoded zero sample
+http error: local stream 1 error: Cancellation (0x8)
+http error: local stream 3 error: Cancellation (0x8)
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+main warning: buffer too late (-1309124 us): dropped
+main warning: buffer too late (-1285904 us): dropped
+main warning: buffer too late (-1262684 us): dropped
+main warning: buffer too late (-1239464 us): dropped
+main warning: buffer too late (-1216244 us): dropped
+main warning: buffer too late (-1193024 us): dropped
+main warning: buffer too late (-1169804 us): dropped
+main warning: buffer too late (-1146584 us): dropped
+main warning: buffer too late (-1123364 us): dropped
+main warning: buffer too late (-1100144 us): dropped
+drawable warning: unsupported control query 3
+main warning: buffer too late (-1077924 us): dropped
+main error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 1000 ms)
+main warning: picture is too late to be displayed (missing 2444 ms)
+main warning: buffer too late (-1054704 us): dropped
+main warning: picture is too late to be displayed (missing 2404 ms)
+main warning: picture is too late to be displayed (missing 2364 ms)
+main warning: picture is too late to be displayed (missing 2324 ms)
+main warning: picture is too late to be displayed (missing 2284 ms)
+main war﻿-- logger module started --
+access error: HTTP 400 error
+main error: Этот источник не открывается
+main error: VLC не может открыть MRL 'https://vk6-3.vkuser.net/?srcIp=104.232.209.216&pr=40&expires=1773452965453&srcAg=CHROME&fromCache=1&ms=95.142.206.162&type=3&sig=49P0ryltzf8&ct=0&urls=185.226.52.157%3B95.163.35.163&clientType=14&appId=512000384397&zs=43&id=11724638259756'. Ищите более подробную информацию в лог-файле.
+access error: HTTP 400 error
+main error: Этот источник не открывается
+main error: VLC не может открыть MRL 'https://vk6-3.vkuser.net/?srcIp=104.232.209.216&pr=40&expires=1773452965453&srcAg=CHROME&fromCache=1&ms=95.142.206.162&type=2&sig=SWZxLC5mGjo&ct=0&urls=185.226.52.157%3B95.163.35.163&clientType=14&appId=512000384397&zs=43&id=11724638259756'. Ищите более подробную информацию в лог-файле.
+access error: HTTP 400 error
+main error: Этот источник не открывается
+main error: VLC не может открыть MRL 'https://vk6-9.vkuser.net/?srcIp=104.232.209.216&pr=40&expires=1773452986678&srcAg=CHROME&fromCache=1&ms=95.142.206.168&type=3&sig=F8MamQrCja8&ct=0&urls=95.163.35.142%3B176.112.172.140&clientType=14&appId=512000384397&zs=43&id=11951571798622'. Ищите более подробную информацию в лог-файле.
+access error: HTTP 400 error
+main error: Этот источник не открывается
+main error: VLC не может открыть MRL 'https://vk6-9.vkuser.net/?srcIp=104.232.209.216&pr=40&expires=1773452986678&srcAg=CHROME&fromCache=1&ms=95.142.206.168&type=3&sig=F8MamQrCja8&ct=0&urls=95.163.35.142%3B176.112.172.140&clientType=14&appId=512000384397&zs=43&id=11951571798622'. Ищите более подробную информацию в лог-файле.
+﻿-- logger module started --
+http error: local stream 1 error: Cancellation (0x8)
+mp4 warning: elst box found
+mp4 warning: STTS table of 1 entries
+mp4 warning: CTTS table of 44666 entries
+mp4 warning: elst box found
+mp4 warning: STTS table of 2 entries
+faad warning: decoded zero sample
+http error: local stream 1 error: Cancellation (0x8)
+http error: local stream 3 error: Cancellation (0x8)
+d3d11va warning: not enough decoding slices in the texture (6/24)
+avcodec: Using D3D11VA (NVIDIA GeForce RTX 5060 Ti, vendor 10de(NVIDIA), device 2d04, revision a1) for hardware decoding
+drawable warning: unsupported control query 3
+﻿-- logger module started --
+﻿-- logger module started --

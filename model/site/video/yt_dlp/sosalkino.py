@@ -10,14 +10,14 @@ from model.site.parser import BaseSiteParser
 class SosalkinoSite(BaseSiteParser):
     @staticmethod
     def can_accept_url(url: URL) -> bool:
-        return url.contain('sosalkino.tube/')
+        return url.contain('sosalkino.guru/')
 
     @staticmethod
     def create_start_button(view:ViewManagerFromModelInterface):
         menu_items=dict()
         view.add_start_button(picture_filename='model/site/resource/sosalkino.png',
                               menu_items=menu_items,
-                              url=URL("https://wvw.sosalkino.tube/"))
+                              url=URL("https://wvw.sosalkino.guru/"))
 
     def get_shrink_name(self):
         return 'SK'
@@ -28,29 +28,36 @@ class SosalkinoSite(BaseSiteParser):
             # pretty(contents)
             for thumbnail in _iter(contents.find_all('div', {'class':'item'})):
                 try:
-                    # pretty(thumbnail)
+                    pretty(thumbnail)
 
                     xref = thumbnail.find('a', href=True)
                     href = URL(xref.attrs['href'], base_url=url)
 
                     img = thumbnail.find('img')
-                    thumb_url = URL(img.attrs.get('data-src'), base_url=url)
+                    thumb_url = URL(img.attrs.get('data-webp',img.attrs.get('data-src')), base_url=url)
                     label = img.attrs.get('alt')
+
+                    psp(thumb_url)
 
                     # title_tag = thumbnail.find('a', {'class': 'video-item-title'})
                     # label = '' if title_tag is None else collect_string(title_tag)
 
-                    duration = thumbnail.find('span', {'class': 'text'})
+
+                    duration = thumbnail.find('span', {'class': 'duration'})
                     dur_time = '' if duration is None else str(duration.string)
+
+                    premium_tag = thumbnail.find('i', {'class': 'icon-diamond'})
+                    premium = '' if premium_tag is None else "Premium only"
 
                     hd_tag = thumbnail.find('div', {'class': 'wrap second'})
                     hd = '' if hd_tag is None else collect_string(hd_tag)
 
+                    # psp(thumb_url,href,label,dur_time,hd)
                     self.add_thumb(thumb_url=thumb_url, href=href, popup=label,
                                    labels=[{'text': dur_time, 'align': 'top right'},
                                            # {'text': count, 'align': 'top right'},
                                            {'text': label, 'align': 'bottom center'},
-                                           {'text': hd, 'align': 'top left'}])
+                                           {'text': premium, 'align': 'top left'}])
                 except AttributeError:
                     print('AttributeError')
                     pass
@@ -71,8 +78,8 @@ class SosalkinoSite(BaseSiteParser):
 
         # pretty(container)
         if container:
-            # pretty(container)
-            for item in _iter(container.find_all('a', class_='row-item', href=lambda x:'/models/' in str(x))):
+            pretty(container)
+            for item in _iter(container.find_all('a',  href=lambda x:'/models/' in str(x))):
                 # pretty(item)
                 href = item.attrs.get('href', '')
                 title = item.attrs.get('title', collect_string(item))

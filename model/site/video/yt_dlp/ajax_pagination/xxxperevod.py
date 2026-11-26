@@ -10,14 +10,14 @@ from model.site.parser import BaseSiteParser
 class XxxperevodSite(BaseSiteParser):
     @staticmethod
     def can_accept_url(url: URL) -> bool:
-        return url.contain('xxxperevod.net/')
+        return url.contain('xxxperevod.icu/')
 
     @staticmethod
     def create_start_button(view:ViewManagerFromModelInterface):
         menu_items=dict()
         view.add_start_button(picture_filename='model/site/resource/xxxperevod.png',
                               menu_items=menu_items,
-                              url=URL("https://xxxperevod.net/latest-updates/"))
+                              url=URL("https://xxxperevod.icu/latest-updates/"))
 
     def get_shrink_name(self):
         return 'XP'

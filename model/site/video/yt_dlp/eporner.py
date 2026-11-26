@@ -23,6 +23,7 @@ class EpornerSite(BaseSiteParser):
         return 'SK'
 
     def parse_thumbs(self, soup: BeautifulSoup, url: URL):
+        # pretty(soup)
         contents = soup.find('div', {'id':'content'})
         if contents:
             # pretty(contents)

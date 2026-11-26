@@ -53,7 +53,7 @@ if __name__ == "__main__":
     url1 = 'https://sickjunk.com/'
     url1a = 'https://ru.anysex.com/video/422235/chocolate-hottie-anne-amari-teases-with-her-perfect-ebony-teen-body-solo-4k/'
     url1b = 'https://www.porndr.com/latest-updates/'
-    url2 = 'https://mzansiporn.mobi/embed/77c3949760a94fa69153'
+    url2 = 'https://v9.cdnde.com/x9/upload_c5a5030d1a22514e694963b288101017/44327/JOPORN_NET_44327_480p.mp4?video=ZGYzMDk5NTU3N2JmYTFjZGMzMTcwZTQyNTI3YjAxMDI=&time=1766992020&ip=104.23.166.9'
     url3 = 'https://i.prostoporno.monster/contents/videos_screenshots/362000/362190/352x198/1.jpg'
 
     fname1 = 'out/1.html'
@@ -70,11 +70,11 @@ if __name__ == "__main__":
 
     headers = {'Referer': 'https://www.heavy-r.com/'}
 
-    r = load(url1a, fname1a, encoding="utf-8")  # ,headers=headers)#, cookies=coockies)
+    # r = load(url1a, fname1a, encoding="utf-8")  # ,headers=headers)#, cookies=coockies)
     # r = load(url2, fname1b)#,headers=headers)
     # r=load(url3,fname1b)#, proxies=proxies)
     # r = load(url1a, fname1a, proxies=proxies)
-    # r = load(url3, fname2)#, headers=headers)#, proxies=proxies)
+    r = load(url2, fname2)#, headers=headers)#, proxies=proxies)
     # r = load(url1b, fname1b)  # ,headers=headers)#, cookies=coockies)
 
     if r:

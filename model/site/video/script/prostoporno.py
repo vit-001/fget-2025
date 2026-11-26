@@ -26,7 +26,7 @@ class ProstopornoSite(BaseSiteParser):
 
         view.add_start_button(picture_filename='model/site/resource/prostoporno.png',
                               # menu_items=menu_items,
-                              url=URL("https://prostoporno.monster/", test_string='порно'))
+                              url=URL("https://prostoporno.dev/"))
 
     def get_shrink_name(self):
         return 'XH'
@@ -130,7 +130,7 @@ class ProstopornoSite(BaseSiteParser):
             for item in _iter(container.find_all('a', href=lambda x:'/tag/' in str(x))):
                 # pretty(item)
                 href = item.attrs.get('href', '')
-                self.add_tag(collect_string(item), URL(href, base_url=url))
+                self.add_tag(collect_string(item), URL(href, base_url=url), style=dict(color='gray'))
 
     def parse_video_title(self, soup: BeautifulSoup, url: URL) -> str:
         head= soup.find('head')
